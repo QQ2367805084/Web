@@ -1,0 +1,213 @@
+@charset "UTF-8";
+* {
+  list-style-type: none;
+  font-family: "Arial","Microsoft YaHei","榛戜綋","瀹嬩綋",sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+.accrodion-group{
+  /* width: 2000px; */
+  background: blue;
+  margin: 0 auto;
+}
+.accordion-DIV {
+  /*   width:98%;
+  height:482px; */
+  overflow: hidden;
+  /* padding-left: 1%; */
+  padding-right: 1%;
+}
+.accordion-DIV > .accordion {
+  /* border:$defaultBorder; */
+}
+
+.accordion {
+  clear: both;
+  overflow: hidden;
+}
+.accordion [data-name=accordion] {
+  border: thin solid #efefef;
+}
+.accordion .accordion-li {
+  float: left;
+  color: #333;
+  border-right: none;
+  overflow: hidden;
+  width: 100px;
+  transition: width 1.5s;
+  position: relative;
+  cursor: pointer;
+}
+.accordion .accordion-li .accordion-img {
+  border: thin solid #efefef;
+}
+.accordion .accordion-li:last-child {
+  border-right: thin solid #efefef;
+}
+.accordion .accordion-li::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0.2;
+  transition: all 0.5s;
+}
+.accordion .accordion-li .accordion-description {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0.7;
+  transition: all 0.5s;
+  top: inherit;
+  bottom: 50%;
+  height: 50%;
+  margin-bottom: -135px;
+  padding: 1.5%;
+}
+.accordion .accordion-li .accordion-content, .accordion .accordion-li .accordion-title, .accordion:hover .accordion-li li.active .accordion-title, .accordion:hover li.active .accordion-li .accordion-title {
+  opacity: 0;
+  transition: all 0.5s;
+  margin-top: 15px;
+  text-shadow: 0px 0px 1px #e0f9ff;
+}
+.accordion .accordion-li .accordion-title {
+  font-size: xx-large;
+  font-weight: bold;
+}
+.accordion .accordion-li .accordion-icon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 43.2px;
+  margin-left: -21.6px;
+  margin-top: -20px;
+  font-size: 40px;
+  z-index: 10;
+  opacity: 1;
+  transition: opacity 2.5s;
+}
+.accordion:hover li {
+  width: 100px;
+  transition: width 1.5s;
+}
+.accordion:hover li.active {
+  /* width:600px !important; */
+  transition: width 0.5s;
+}
+.accordion:hover li.active::before {
+  opacity: 0;
+}
+.accordion:hover li.active .accordion-icon {
+  opacity: 0;
+  transition: opacity .2s;
+}
+.accordion:hover li.active .accordion-description {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 1;
+  transition: all 0.5s;
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0), white);
+  /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(rgba(255, 255, 255, 0), white);
+  /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(rgba(255, 255, 255, 0), white);
+  /* Firefox 3.6 - 15 */
+  background: linear-gradient(rgba(255, 255, 255, 0), white);
+  padding-top: 9%;
+  height: auto;
+  width: 97%;
+  top: inherit;
+  bottom: 136px;
+}
+.accordion:hover li.active .accordion-content, .accordion:hover li.active .accordion-title {
+  opacity: 1  !important;
+  transition: all 2s;
+}
+.accordion.verticality {
+  clear: both;
+  overflow: hidden;
+}
+.accordion.verticality .accordion-li {
+  width: 100%;
+  float: inherit;
+  border: thin solid #efefef;
+  height: 100px;
+  transition: height .6s;
+  border-bottom: none;
+}
+.accordion.verticality .accordion-li .accordion-description {
+  left: 50%;
+  bottom: 0;
+  width: 30%;
+  height: 95%;
+  margin-bottom: 0px;
+  margin-top: auto;
+  margin-left: -224px;
+  transition: all .8s;
+}
+.accordion.verticality .accordion-li .accordion-img {
+  width: 100%;
+}
+.accordion.verticality .accordion-li:last-child {
+  border-bottom: thin solid #efefef;
+}
+.accordion.verticality .accordion-li.active {
+  width: 100% !important;
+  transition: height .6s;
+}
+.accordion.verticality .accordion-li.active::before {
+  opacity: 0;
+}
+.accordion.verticality .accordion-li.active .accordion-icon {
+  opacity: 0;
+  transition: all 0.5s;
+}
+.accordion.verticality .accordion-li.active .accordion-description {
+  margin-left: 0;
+  width: 98%;
+  height: 50%;
+  top: inherit;
+  bottom: 0;
+  left: 0;
+  opacity: 1;
+  padding-top: 1.5%;
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0), white);
+  /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(rgba(255, 255, 255, 0), white);
+  /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(rgba(255, 255, 255, 0), white);
+  /* Firefox 3.6 - 15 */
+  background: linear-gradient(rgba(255, 255, 255, 0), white);
+  transition: height .8s;
+}
+.accordion.verticality .accordion-li.active .accordion-description .accordion-title, .accordion.verticality .accordion-li.active .accordion-description .accordion-content, .accordion.verticality .accordion-li.active .accordion-description .accordion-title {
+  opacity: 1;
+  transition: opacity 1s;
+}
+.accordion .ver-toggle {
+  display: none;
+}
+.accordion .accordion-img {
+  display: block;
+}
+.accordion a {
+  display: block;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}

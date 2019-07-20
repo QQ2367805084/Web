@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+*{ 
+    margin:0;
+    padding:0;
+    font-family:微软雅黑;
+    list-style:none
+}
+.floorEight>a{
+    text-decoration:none
+}
+.pic{
+    overflow:hidden;
+    width:100%;
+    height:100%;
+    background-color:#2a2a2a
+    /* margin:0 auto;
+    padding-top:70px */
+}
+.pic ul li{
+    float:left;
+    height:960px;
+    width:1550px;
+}
+    .pic ul .pic1{
+        background:url(../../imges/indexImges/矩形\ 13.png) no-repeat;
+        background-position:center center;
+        /* background-size: 100% 100%; */
+        width:1578px
+    }
+    .pic ul .pic2{
+        background:url(../../imges/indexImges/矩形\ 23.png) no-repeat;
+        background-position:center center;
+        /* background-size: 100% 100%; */
+    }
+    .pic ul .pic3{
+        background:url(../../imges/indexImges/矩形\ 133.png) no-repeat;
+        background-position:center center;
+        /* background-size: 100% 100%; */
+    }
+    .pic ul .pic4{
+        background:url(../../imges/indexImges/矩形\ 143.png) no-repeat;
+        background-position:center center;
+        /* background-size: 100% 100%; */
+    }
+    .pic ul .pic5{
+        background:url(../../imges/indexImges/矩形\ 183.png) no-repeat;
+        background-position:center center;
+        /* background-size: 100% 100%; */
+    }
+    .txt{
+        /* background-color:#000; */
+        /* background:rgba(0,0,0,.5); */
+        height:100%;
+        width:100%;
+        text-align: center;
+    }
+    .txt p{
+        color:#fff
+    }
+    .txt .p1{
+        font-size:50px;
+        width:100%;
+        line-height: 960px;
+    }

@@ -1,0 +1,79 @@
+/* 
+ *内含
+ *页面元素reset
+ *间距补丁
+ *常用萌样式
+ *通用字体
+ *常用宽度
+ *常规色
+ */
+
+/*初始化结构*/
+html{background:#fff;}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre,fieldset, lengend, button, input, textarea,th, td {margin: 0;padding: 0;}
+h1,h2,h3,h4,h5,h6{font-size: 100%;font-weight: normal;}
+ol, ul {list-style: none;}
+table{ border-collapse: collapse;border-spacing: 0; }
+caption, th {text-align: left;}
+img{border:0;}
+em,cite{ font-style:normal;}
+blockquote{quotes: none;}
+blockquote:before,blockquote:after,{content: '';content: none;}
+html{overflow-y: scroll;}
+body,button, input, select, textarea {font: 12px/1.5 \5B8B\4F53,\9ED1\4F53,Arial,sans-serif;}
+button, input, select, textarea { *font-size: 100%; }
+:focus {outline: 0;}
+a {text-decoration:none; color:#3666c6;cursor: pointer;}
+a:hover { color:#f60; text-decoration:underline;}
+
+/*模型补丁*/
+.mt10{margin-top:10px;}
+.mt105{margin-top:105px;}
+.mt50{margin-top:50px;}
+.mt30{margin-top:30px;}
+.mt5{margin-top:5px;}
+.mt15{margin-top:15px;}
+.mt20{margin-top:20px;}
+.ml10 { margin-left:10px;}
+.mb20{margin-bottom:20px;}
+.ml15{margin-left:15px;}
+.ml50{margin-left:50px;}
+.ml5 { margin-left:5px;}
+.mr20{margin-right:20px;}
+.mr50{margin-right:50px;}
+.p5{padding:5px;}
+.pl10{padding-left:10px;}
+.block{display:block;}
+
+/*通用样式*/
+.clearfix:after{content:'\20';display:block;height:0;clear:both;visibility: hidden;}
+.c{clear:both;font:0px/0px Arial;overflow:hidden;height:0;width:0;}
+.b{ font-weight:700;}
+.w{white-space:nowrap}
+.tal{text-align:left}
+.tac{text-align:center}
+.tar{text-align:right}
+.fr{float:right}
+.fl{float:left}
+.pr{position:relative}
+.cp{cursor:pointer;}
+.vt{vertical-align:top}
+.fn{font-weight:normal}
+
+
+/*通用字体*/
+.f12{font-size:12px}
+.f14{font-size:14px}
+.f16{font-size:16px;}
+.f18{ font-size:18px; }
+.f20{font-size:20px;}
+.f22{font-size:22px;}
+.f24{font-size:24px;}
+
+/*常用色*/
+.c-grey-33{ color: #333; }
+.c-grey-66{ color: #666; }
+.c-grey-99{ color: #999; }
+.c-white{ color: #999; }
+
+.wenzijuzhong{text-align:center;}

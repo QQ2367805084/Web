@@ -1,0 +1,226 @@
+$defaultBorder : thin solid #efefef;
+$animateTime : .5s;
+$defaultWidth : 100px;
+$positionTop : 50% ;
+$positionLeft : 50% ;
+$padding : 1.5%;
+
+@mixin MainBox(){
+  clear:both;
+  overflow: hidden;
+}
+
+@mixin transitArea($opacity){
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: white;
+  width:100%;
+  height: 100%;
+  left:0;
+  top:0;
+  filter: alpha(opacity=$opacity*100);
+  -moz-opacity: $opacity;  
+  opacity: $opacity;  
+  transition:all $animateTime;
+}
+
+*{
+  list-style-type: none;
+  font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+  padding:0px;
+  margin:0px;
+}
+
+/* .lte_ie8 .accordion .{
+    imageObj: [], //存放图片对象  
+    arrangement: "horizontal", //verticality 对齐方式  
+    fontCut: 500, //文字截取（500个字符内） 
+    defaultWidth: 100, //默认初始宽度 
+    defaultHeight: 100, //默认初始高度  
+    animateWidth: 600, //默认放大宽度  
+    animateHeight: 200, //默认放大高度  
+    response: true, //是否使用响应式  
+    styleColor: {
+        "background": "white",
+        "font": "#333333",
+        "textShadow": "0px 0px 1px green"
+    },  .accordion-description{
+  background: #fff !important;
+} */
+
+.accordion-DIV{
+/*   width:98%;
+height:482px; */
+  overflow: hidden;
+  padding-left:1%;
+  padding-right: 1%;
+  > .accordion{
+    /* border:$defaultBorder; */
+  }
+};
+.accordion{
+  @include MainBox();
+  [data-name=accordion]{
+    border:$defaultBorder;
+  }
+  .accordion-li{
+    float: left;
+    color:#333;
+    border-right:none;
+    overflow: hidden;
+    width:$defaultWidth;
+    transition:width 1.5s;
+    position: relative;
+    cursor:pointer;
+    .accordion-img{
+      border: $defaultBorder;
+    }
+    &:last-child{
+      border-right: $defaultBorder;
+    }
+    &::before{
+     @include transitArea(0.2);
+    }
+    .accordion-description{
+      @include transitArea(0.7);
+      top:inherit;
+      bottom:50%;
+      height: $positionLeft;
+      margin-bottom: -135px;
+      padding:$padding;
+    }
+    .accordion-content{
+      filter: alpha(opacity=0);
+      opacity: 0;
+      transition:all $animateTime;
+      margin-top: 15px;
+      text-shadow:0px 0px 1px #e0f9ff;
+    }
+    .accordion-title{
+      @extend .accordion-content;
+      font-size: xx-large;
+      font-weight: bold;
+    }
+    .accordion-icon{
+      position: absolute;
+      left:$positionLeft;
+      top:$positionTop;
+      width:43.2px;
+      margin-left: -21.6px;
+      margin-top: -20px;
+      font-size: 40px;
+      z-index:10;
+      filter: alpha(opacity=100);
+      opacity: 1;
+      transition:opacity 2.5s;
+    }
+  }
+  &:hover li{
+    width:$defaultWidth;
+    transition:width 1.5s;
+    &.active{
+      /* width:600px !important; */
+      transition:width $animateTime;
+      &::before{
+        filter: alpha(opacity=0);
+        opacity: 0;
+      }
+      .accordion-icon{
+        filter: alpha(opacity=0);
+        opacity: 0;
+        transition:opacity .2s;
+      }
+      .accordion-description{
+        @include transitArea(1);
+        background: -webkit-linear-gradient(rgba(255,255,255,0),rgba(255,255,255,1)); /* Safari 5.1 - 6.0 */
+        background: -o-linear-gradient(rgba(255,255,255,0),rgba(255,255,255,1)); /* Opera 11.1 - 12.0 */
+        background: -moz-linear-gradient(rgba(255,255,255,0),rgba(255,255,255,1)); /* Firefox 3.6 - 15 */
+        background: linear-gradient(rgba(255,255,255,0),rgba(255,255,255,1)); 
+        padding-top: 9%;
+        height: auto;
+        width:97%;
+        top:inherit;
+        bottom: 136px;
+      }
+      .accordion-content{
+        filter: alpha(opacity=100) !important;
+        opacity: 1  !important;
+        transition:all 2s;
+      }
+      .accordion-title{
+        @extend .accordion-content;
+      }
+    }
+  }
+  &.verticality{
+    @include MainBox();
+    .accordion-li{
+      width:100%;
+      float: inherit;
+      border:$defaultBorder;
+      height: 100px;
+      transition:height .6s;
+      border-bottom: none;
+      .accordion-description{
+        left:50%;
+        bottom:0;
+        width:30%;
+        height: 95%;
+        margin-bottom: 0px;
+        margin-top: auto;
+        margin-left: -224px;
+        transition:all .8s;
+      }
+      .accordion-img{
+        width:100%;
+      }
+      &:last-child{
+        border-bottom:$defaultBorder;
+      }
+      &.active{
+        width:100% !important;
+        transition:height .6s;
+        &::before{
+          filter: alpha(opacity=0);
+          opacity: 0;
+        }
+        .accordion-icon{
+          filter: alpha(opacity=0);
+          opacity: 0;
+          transition:all $animateTime;
+        }
+        .accordion-description{
+          margin-left: 0;
+          width:98%;
+          height: 50%;
+          top:inherit;
+          bottom:0;
+          left:0;
+          filter: alpha(opacity=100);
+          opacity: 1;
+          padding-top: $padding;
+          background: -webkit-linear-gradient(rgba(255,255,255,0),rgba(255,255,255,1)); /* Safari 5.1 - 6.0 */
+          background: -o-linear-gradient(rgba(255,255,255,0),rgba(255,255,255,1)); /* Opera 11.1 - 12.0 */
+          background: -moz-linear-gradient(rgba(255,255,255,0),rgba(255,255,255,1)); /* Firefox 3.6 - 15 */
+          background: linear-gradient(rgba(255,255,255,0),rgba(255,255,255,1)); 
+          transition:height .8s;
+          .accordion-title,.accordion-content{
+            filter: alpha(opacity=100);
+            opacity: 1;
+            transition:opacity 1s;
+          }
+        }
+      }
+    }
+  }   
+  .ver-toggle{ display: none; }
+  .accordion-img{ display: block;}
+  a{
+    display: block;
+    background-color: white;
+    width:100%;
+    height: 100%;
+  }
+}
+ 

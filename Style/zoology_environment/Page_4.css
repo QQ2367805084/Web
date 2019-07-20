@@ -1,0 +1,580 @@
+.head_{
+    width: 100%;
+    height: 847px;
+    background: url(../../imges/zoology_environment/生态环境/图层\ 1.png) no-repeat;
+    background-size: 100% 100%;
+}
+.bigbox{
+    width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+    color: #FFFFFF
+}
+
+.title>div{
+    float: left;
+    font-size: 72px;
+    margin: 27px 28px
+}
+.text{
+    width: 688px;
+    height: 72px;
+    position: relative;
+    left:  33px; 
+    top : -300px; 
+    transition: all 0.5s ease;
+}
+.con{
+    width: 680px;
+    margin: 0 52px 
+}
+.con>div{
+    float: left;
+    
+}
+
+/* 环境保户 */
+.protect{
+    /* text-align: center; */
+    width: 1280px;
+    height: 571px;
+    margin: 50px auto;
+}
+.pics{
+    margin: 0 auto;
+    width: 1230px;;
+}
+.pics>div{
+    float: left;
+}
+.pic{
+    margin: 28px 25px;
+    width: 360px;
+    height: 301px;
+}
+
+/* 环境轮播 */
+.protect2{
+    width: 1280px;
+    height: 970px;
+    margin: 120px auto 100px auto
+}
+.pass{
+    width: 100%;
+    height: calc(100% / 3);
+    position: relative;
+    opacity: .6;
+    background: #ffffff94
+}
+.navimg{
+    width: 550px;
+    height: 313px;
+    top: 0;
+}
+.pass img{
+    width: 500px;
+    height: 313px;
+    margin: 0px 25px;
+    top: 0;
+    transition: all 1s ease;
+}
+.pass:hover img{
+    width: 550px;
+    height: 353px;
+    margin: 0px 0px;
+    position: absolute;
+    top: -13px;
+    transition: all 1s ease;
+    z-index: 99;
+    box-shadow:  0 0 14px rgb(148, 148, 148)
+}
+.pass:hover{
+    background: #ffffff;
+    transition: 0.5s all ease;
+    opacity: 1;
+}
+.pass>div{
+    float: left;
+}
+
+.text1{
+    width: 610px;
+    margin: 30px 0 30px 50px
+}
+.navtext{
+    font-size: 22px;
+    margin: 26px 0 33px 0;
+    /* transition: all 1s ease; */
+}
+.pass:hover .navtext{
+    font-weight: bold;
+    /* transition: all 0.5s ease; */
+}
+/* 环保工程 */
+.project{
+    width: 1280px;
+    /* height: 1182px; */
+    /* background: yellow; */
+    margin: 30px auto 0 auto;
+}
+.pro{
+    width: 100%;
+    height: 379px;
+}
+.pro>div{
+    float: left;
+}
+/* 水处理 */
+.project2{
+    width: 1280px;
+    height: 827px;
+    margin: 110px auto;
+    /* background: aqua; */
+}
+.picture{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.icons{
+    width: 1280px;
+    height: 22%;
+    /* margin: 5px 0; */
+    /* background: red */
+}
+.icons>div{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    float: left;
+}
+.advs{
+    width: 2560px;
+    /* height: 100%;     */
+    /* background: yellow; */
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: all 0.6s;
+}
+.advs>div{
+    float: left;
+    width: 50%;
+    /* height: 100%; */
+    margin: 0;
+}
+.water{
+    margin:  0 0 20px 0;
+    height: 314px;
+    transition: all 5s ease
+}
+.water>div{
+    float: left;
+    width: 413px;
+    height: 314px;
+    transition: all 6s ease;
+}
+.water2>div{
+    float: left;
+}
+.advs * img{
+    width:100%;
+    height:100%
+}
+.gas>div{
+    float: left;
+}
+.wat1{
+    text-align: center;
+    line-height: 314px;
+    background: url(../../imges/zoology_environment/生态环境/图层\ 14.png) no-repeat;
+    background-size: 100% 100%;
+    z-index: 1;
+    font-size: 24px;
+    color: #ffffff;
+}
+.wat1>span,.wat2>span,.wat3>span,.wat4>span,.wat5>span{
+    display: none;
+    
+}
+.wat1:hover span,.wat2:hover span,.wat3:hover span,.wat4:hover span,.wat5:hover span{
+    display: block;
+    background: #333333a2;
+    color: #ffffff;
+    text-align: center;
+    /* font-size: 100px; */
+    
+
+}
+.wat2{
+    line-height: 314px;
+    background: url(../../imges/zoology_environment/生态环境/图层\ 18.png) no-repeat;
+    background-size: 100% 100%;
+    z-index: 1;
+    font-size: 24px;
+    color: #ffffff;
+}
+.wat3{
+    line-height: 314px;
+    background: url(../../imges/zoology_environment/生态环境/图层\ 15.png) no-repeat;
+    background-size: 100% 100%;
+    z-index: 1;
+    font-size: 24px;
+    color: #ffffff
+}
+.wat4{
+    width: 847px;
+    height: 310px;
+    margin: 0 10px 0 0;
+    line-height: 314px;
+    background: url(../../imges/zoology_environment/生态环境/图层\ 16.png) no-repeat;
+    background-size: 100% 100%;
+    z-index: 1;
+    font-size: 24px;
+    color: #ffffff
+}
+.wat5{
+    margin: 0 0 0 10px;
+    height: 310px;
+    width: 413px;
+    line-height: 314px;
+    background: url(../../imges/zoology_environment/生态环境/图层\ 17.png) no-repeat;
+    background-size: 100% 100%;
+    z-index: 1;
+    font-size: 24px;
+    color: #ffffff
+}
+.g1{
+    height: 644px;
+    width: 413px;
+    margin: 0 20px 0 0;
+    line-height: 314px;
+    background: url(../../imges/zoology_environment/生态环境/图层\ 19.png) no-repeat;
+    background-size: 100% 100%;
+    z-index: 1;
+    font-size: 24px;
+    color: #ffffff
+}
+.g1>span,.g2>span,.g3>span,.g4>span,.g5>span{
+    display: none;
+    
+}
+.g1:hover span{
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 644px;
+    background: #333333a2;
+    color: #ffffff;
+    text-align: center;
+    font-size: 24px;
+    transition: all 5s ease
+
+}
+.g2:hover span,.g3:hover span,.g4:hover span,.g5:hover span{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #333333a2;
+    color: #ffffff;
+    text-align: center;
+    font-size: 24px;
+    transition: all 5s ease
+
+}
+.back{
+    /* overflow: hidden; */
+    background: red;
+    width: 75px;
+    height: 3px;
+    margin: 23px auto 0 auto;
+}
+.back2{
+    /* overflow: hidden; */
+    background: red;
+    width: 75px;
+    height: 3px;
+    margin: 23px auto 0 auto;
+}
+.active{
+    /* background: rgb(255, 0, 0); */
+}
+.g2{
+    height: 312px;
+    width: 413px;
+    margin: 0 20px 20px 0;
+    line-height: 314px;
+    background: url(../../imges/zoology_environment/生态环境/图层\ 20.png) no-repeat;
+    background-size: 100% 100%;
+    z-index: 1;
+    font-size: 24px;
+    color: #ffffff
+}
+.g3{
+    height: 312px;
+    width: 413px;
+    margin: 0 20px 0px 0;
+    line-height: 314px;
+    background: url(../../imges/zoology_environment/生态环境/图层\ 22.png) no-repeat;
+    background-size: 100% 100%;
+    z-index: 1;
+    font-size: 24px;
+    color: #ffffff
+}
+.g4{
+    height: 312px;
+    width: 413px;
+    margin: 0 0 20px 0;
+    line-height: 314px;
+    background: url(../../imges/zoology_environment/生态环境/图层\ 21.png) no-repeat;
+    background-size: 100% 100%;
+    z-index: 1;
+    font-size: 24px;
+    color: #ffffff
+}
+.g5{
+    height: 312px;
+    width: 413px;
+    /* margin: 0 0 20px 0; */
+    line-height: 314px;
+    background: url(../../imges/zoology_environment/生态环境/图层\ 23.png) no-repeat;
+    background-size: 100% 100%;
+    z-index: 1;
+    font-size: 24px;
+    color: #ffffff
+}
+
+/* 环保 */
+.huanbao{
+    width: 100%;
+    height: 457px;
+    background: url(../../imges/zoology_environment/生态环境/图层\ 24.png) no-repeat;
+    background-size: 100% 100%;
+}
+.texts{
+    width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+    /* background: rebeccapurple; */
+}
+.texts>div{
+    width: 468px;
+    position: relative;
+    right: 158px;
+    top: 109px;
+    float: right;
+}
+.text2{
+    margin-bottom: 30px; 
+    font-size: 36px;
+    color: #FFFFFF
+}
+/* <!-- 行业动态 --> */
+.industry{
+    width: 1280px;
+    height: 480px;
+    /* background: rebeccapurple; */
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.industry>div{
+    float: left;
+    width: 406px;
+    height: 468px;
+    /* background: blueviolet; */
+}
+.item{
+    width: 100%;
+    height: 134px;
+}
+.item>div{
+    /* width: 50%; */
+    height: 100%;
+    float: left;
+    
+}
+.img2{
+    width: 100%;
+    height: 100%;
+    background: url(../../imges/zoology_environment/生态环境/29.jpg) no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.img2>div{
+    background: rgba(0,0,0,0.5);
+    height: 100%;
+    padding-top: 28px;
+}
+.kapian{
+    margin: 0 28px 0 0;
+    border: solid 1px #E5E5E5
+}
+.move{
+    float: right;
+    position: relative; 
+    right: 15px;
+    font-size: 14px;
+    /* bottom: 5px; */
+    cursor: pointer;
+}
+.move:hover{
+    color: #E44444
+}
+/* --------公共部分------------ */
+.nava{
+	width: 100%;
+	height: 88px;
+	/* background: red; */
+	background: #fff;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	margin: 0 auto;
+	z-index:100;
+}
+.nav{
+    width: 1280px;
+    height: 88px;
+    /* background: red; */
+    background: #fff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0 auto;
+    z-index: 99;
+}  
+.navBox{
+    float: left;
+}
+.hoverBOx:hover .sonPage{
+    display: inline-block;
+}
+.sonPage_title{
+    color: #000;
+    background: #fff;
+    border-bottom: 1px solid rgba(229,229,229,1);
+}
+.sonPage_title:hover{
+    background: #E44444;
+    color: #fff;
+}
+
+.sonPage{
+    width: 100%;
+    height: 288px;
+    display: none;
+}
+.nav>div{
+    font-size: 18px;
+}
+/* -----------公共部分 -end----------- */
+/* -----------导航条LOGO标题部分----------- */
+.navFlex_left{
+    text-align: center;
+    width: 230px;
+    height: 100%;
+    /* background: green; */
+}
+.logo{
+    border-radius: 50%;
+    /* background: rebeccapurple; */
+    text-align: center;
+    line-height: 70px;
+    /* margin:0 71px; */
+}
+.title{
+    /* background: rebeccapurple; */
+    line-height: 88px;
+}
+/* -----------导航条LOGO标题部分 -end----------- */
+/* -----------导航条右边主题部分----------- */
+.navFlex_right{
+    width: 1050px;
+    height: 100%;
+    /* background: yellow; */
+}
+.navFlex_right>div{
+    width: 175px;
+    height:100%;
+    text-align: center;
+    line-height: 88px;
+}
+.navFlex_right>div:hover{
+    cursor: pointer;
+    background:#E44444;
+    color: #fff;
+}
+.navFlex_right>div:hover a{
+    color: #fff;
+}
+/* -----------导航条右边主题部分 -end----------- */
+
+/* 脚注 */
+.float{
+    float: left;
+}
+.footnote{
+    width: 100%;
+    height: 300px;
+    background: #303030;
+}
+.footnoteBox{
+    width: 1280px;
+    height: 100%;
+    /* background: lightgreen; */
+    margin: 0 auto;
+}
+.footnoteLogo{
+    margin-right: 30px;
+}
+.footnoteLogo>img:nth-child(1){
+    margin-top: 122px;
+}
+.footnoteLogo>img:nth-child(2){
+    margin-top: 135px;
+    margin-left: 12px;
+}
+.footnoteTheme{
+    line-height: 27px;
+     height: 181px;
+     width: 824px;
+     /* background: red; */
+     margin-top: 59.5px;
+}
+.footnoteTheme>.textTop{
+    width:727px;
+    height:54px;
+    font-size:20px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:27px;
+}
+.footnoteTheme>.textBottom{
+    width:853px;
+    height:54px;
+    font-size:16px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:27px;
+    opacity:0.5;
+}
+.footnoteBottom{
+    float: right;
+    margin-top: 56px;
+    text-align: center;
+}
+.footnoteBottom>img{
+    margin: 0 10px;
+}
+.footnoteBottom>p{
+    font-size: 18px;
+    color:rgba(255,255,255,1);
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    margin: 0 10px;
+}
+/* 脚注 -end */

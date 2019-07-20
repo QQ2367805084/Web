@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首页</title>
+    <link rel="stylesheet" href="Style/index/navigation/nav.css">
+    <!-- 垂直轮播图 -->
+    <script src="plug_in/Vertical_shuffling/three.min.js"></script>
+    <script src="plug_in/Vertical_shuffling/tween.min.js"></script>
+    <script src="plug_in/Vertical_shuffling/TrackballControls.js"></script>
+    <script src="plug_in/Vertical_shuffling/CSS3DRenderer.js"></script>
+    <!-- 垂直轮播图 -end-->
+    <!-- 手风琴 -->
+    <script src="JavaScript/index/jquery.min.js"></script>
+    <script src="JavaScript/index/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="Style/index/index.css">
+    <!-- 手风琴 end -->
+    <!-- swiper垂直轮播图 -->
+    <link rel="stylesheet" href="plug_in/swiper/swiper-4.2.6.min.css">
+    <script src="plug_in/swiper/swiper-4.2.6.min.js"></script>
+
+    <!-- swiper垂直轮播图 -end -->
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: 'MicrosoftYaHei';
+            list-style: none;
+            text-decoration: none;
+        }
+
+        .nava a {
+            color: #000;
+            display: block;
+            width: 100%;
+        }
+
+        .nava a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- 导航条 -->
+    <div class="nava">
+            <div class="nav">
+                <div class="navBox navFlex_left">
+                    <div class="navBox logo">
+                        <img src="imges/indexImges/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="navBox navFlex_right">
+                    <div class="navBox">
+                        <a href="./index.html">首页</a>
+                    </div>
+                    <div class="navBox hoverBOx">
+                        <a href="webpage/science_Page.html">中国科技</a>
+                        <div class="sonPage">
+                            <a href="webpage/NewEnergy.html">
+                                    <div class="sonPage_title">新型能源</div></a>
+                            <a href="webpage/High_Speed.html">
+                                <div class="sonPage_title">中国高铁</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="navBox hoverBOx">
+                            <a href="">中国建造</a>
+                            <div class="sonPage">
+                                <a href="webpage/construct.html">
+                                    <div class="sonPage_title">中国大桥</div>
+                                    <a href="webpage/highway.html">
+                                        <div class="sonPage_title">中国公路</div>
+                                    </a>
+                                    <a href="webpage/port.html">
+                                        <div class="sonPage_title">中国港口</div>
+                                    </a>
+                            </div>
+                        </div>
+                    <div class="navBox hoverBOx">
+                        <a href="webpage/develop_idea.html">发展理念</a>
+                        <div class="sonPage">
+    
+                        </div>
+                    </div>
+                    <div class="navBox hoverBOx">
+                        <a href="webpage/zoology_environment.html">生态环境</a>
+                        <div class="sonPage">
+                        </div>
+                    </div>
+                    <div class="navBox hoverBOx"><a href="webpage/Good_life.html">美好生活</a>
+                        <div class="sonPage">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 导航条 -end -->
+    <!-- 轮播图 -->
+    <div class="banner">
+        <ul class="advs">
+            <li><a href="#"><img src="imges/indexImges/banner/区块链技术蓝色科技海报.jpg"></a></li>
+            <li><a href="#"><img src="imges/indexImges/banner/航天.jpg"></a></li>
+            <li><a href="#"><img src="imges/indexImges/banner/59e1b06a199be.jpg"></a></li>
+            <li><a href="#"><img src="imges/indexImges/banner/banner4.png"></a></li>
+        </ul>
+        <ul class="icons">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <!-- 轮播图btn -->
+    <!-- 第一层 -->
+    <div class="floorOne">
+        <div class="label">
+            <img src="imges/indexImges/11.png">
+            <div style=" position: absolute;top: 24.5px;left: 120px;">
+                <div class="float lineBox"></div>
+                <div class="float" style="color: #fff;font-size:30px;margin:0 30px;">第十三个五年计划</div>
+                <div class="float lineBox"></div>
+                <div>(2016~2020)</div>
+            </div>
+        </div>
+        <div class="flexBox">
+            <div class="flexTop">
+                <div class="flexLit float">
+                    <img src="imges/indexImges/图层%2022.png" alt="">
+                    <div class="text">创新发展</div>
+                    <div class="textContent">创新摆在国家发展全局的核心位置，不断推进理论创新、制度创新、科技创新、文化创新等各方面创新.</div>
+                </div>
+                <div class="float" style=" height: 100%;">
+                    <div class="float" style="text-align: center; width: 531px;position: relative; margin: 0 21px;">
+                        <div class="flexBig"></div>
+                        <div class="lingLei">
+                            <img src="imges/indexImges/图层%2019.png" alt="">
+                            <div class="text">绿色发展</div>
+                            <div class="textContent">促进人与自然和谐共生，构建科学合理的城市化格局、农业发展格局、生态安全格局、自然岸线格局，推动建立绿色低碳循环发展产业体系.
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="flexLit float">
+                    <img src="imges/indexImges/图层%2019.png" alt="">
+                    <div class="text">共享发展</div>
+                    <div class="textContent">创新摆在国家发展全局的核心位置，不断推进理论创新、制度创新、科技创新、文化创新等各方面创新.</div>
+                </div>
+            </div>
+            <div class="flexBottom">
+                <div class="flexLit flexBottomLit float" style="margin-right: 90px">
+                    <img src="imges/indexImges/图层%2021.png" alt="">
+                    <div class="text">协调发展</div>
+                    <div class="textContent">重点促进城乡区域协调发展，促进经济社会协调发展，促进新型工业化、信息化、城镇化、农业现代化同步发展.</div>
+                </div>
+                <div class="float" style="width:1px;height:195px;background:rgba(219,219,219,1);margin-top: 55px;">
+                </div>
+                <div class="flexLit flexBottomLit float" style="margin-left:90px;width: 380px">
+                    <img src="imges/indexImges/图层%2023.png" alt="">
+                    <div class="text">开发发展</div>
+                    <div class="textContent" style="width: 360px">
+                        必须丰富对外开放内涵，提高对外开放水平，协同推进战略互信、经贸合作、人文交流，努力形成深度融合的互利合作格局.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 第一层  -end -->
+    <!-- 第二层 -->
+    <div class="floorTwo">
+
+    </div>
+    <!-- 第二层 end-->
+    <!-- 第三层标题 -->
+    <div class="intoChina">
+        <div class="intoChinaTop">
+            <div class="float lineBox"></div>
+            <div class="float" style="color: #000;font-size:35px;margin:0 20px;line-height: 70px;">走进中国</div>
+            <div class="float lineBox"></div>
+        </div>
+        <div class="intoChinaBottom">
+            以习近平新时代中国特色社会主义思想为内在逻辑，展示了在创新、协调、绿色、开放和共享的新发展理念下中国这五年的伟大成就，展现了中国人民在全面建设小康征程上的伟大奋斗，彰显了以习近平同志为核心的党中央的正确领导。凝聚起全党全国人民的磅礴力量，为实现中华民族伟大复兴的中国梦不断前进。
+        </div>
+    </div>
+    <!-- 第三层标题 end-->
+    <!-- 第四层 -->
+    <div class="floorFour">
+        <div style="width: 1134px;height: 382px; margin: 0 auto;">
+            <div class="floorFourLeft float">
+                <p>厉害了我的国</p>
+                <div>
+                    作为展现新时代祖国复兴强盛的写实记录电影，《厉害了，我的国》恢宏写实的镜头下，不仅将中国在科技领域取得的非凡成就跃然光影，同时电影在后半段也以普通人的视角为切入，着力一展于平凡百姓的生活轨迹，从基层扶贫到筑起最大人工林的坝上人，从细致入微的健康管理员到军纪严明的威武雄师，多角度的展现了在以习近平新时代中国特色社会主义思想为指导取得的卓越成就，令人不经间热泪盈眶，由衷发出一句赞叹：“厉害了，我的国”！。
+                </div>
+            </div>
+            <div class="floorFourRight float">
+                <video src="imges/indexImges/序列%2001_1.mp4" style="width: 100%;height: 100%;" controls="controls">
+                
+                </video>
+            </div>
+        </div>
+    </div>
+    <!-- 第四层 -end -->
+    <!-- 第五层标题 -->
+    <div class="intoChina">
+        <div class="intoChinaTop">
+            <div class="float lineBox"></div>
+            <div class="float" style="color: #000;font-size:35px;margin:0 20px;line-height: 70px;">中国建造</div>
+            <div class="float lineBox"></div>
+        </div>
+        <div class="intoChinaBottom">
+            中国制造了世界上最快的超级计算机，把航天员送进了太空，并研发出北斗卫星导航系统，“有中国特色的创新”已经在国家发展进步中发挥了主导作用。中国科学技术发展战略研究院发布了《国家创新指数报告2013》，报告显示中国创新能力稳步上升，国家创新指数排名在全球40个主要国家中升至第19位。中国研发经费达到10298.4亿元，稳居世界第三位，高技术产业出口占制造业出口的比重居世界首位，知识服务业增加值居世界第三位。从国家的知识产权创造和运用可以看出，中国发明专利的申请已经连续3年超过美国，处在世界第一位。
+        </div>
+    </div>
+    <!-- 第五层标题  -end -->
+    <!-- 第五层轮播图 -->
+    <div class="fiveSlideshow">
+
+    </div>
+    <!-- 第五层轮播图 -end -->
+    <!-- 第六层标题 -->
+    <div class="intoChina sixTitle">
+        <div class="intoChinaTop">
+            <div class="float lineBox"></div>
+            <div class="float" style="color: #000;font-size:35px;margin:0 20px;line-height: 70px;">中国科技</div>
+            <div class="float lineBox"></div>
+        </div>
+    </div>
+    <!-- 第六层标题  -end -->
+    <!-- 第六层 -->
+    <div class="floorSix">
+        <div style="width: 1320px; margin: 0 auto;">
+            <div class="floorSixBox float">
+                <div class="floorSixBoxTop">
+                    <img src="imges/indexImges/floorSix/1.png" alt="">
+                    <div class="emersion">
+                        <p>新能源汽车</p>
+                    </div>
+                </div>
+                <div class="floorSixBoxBottom">
+                    <img src="imges/indexImges/floorSix/2.png" alt="">
+                    <div class="emersion">
+                        <p>AG600</p>
+                        <p>世界最大两栖飞机</p>
+                    </div>
+                </div>
+            </div>
+            <div class="floorSixBox float malposition">
+                <div class="floorSixBoxTop">
+                    <img src="imges/indexImges/floorSix/3.png" alt="">
+                    <div class="emersion">
+                        <p>运20 列装空军</p>
+                        <p>首辆大型运输机</p>
+                    </div>
+                </div>
+                <div class="floorSixBoxBottom">
+                    <img src="imges/indexImges/floorSix/4.png" alt="">
+                    <div class="emersion">
+                        <p>和谐号动车组</p>
+                    </div>
+                </div>
+            </div>
+            <div class="floorSixBox float ">
+                <div class="floorSixBoxTop">
+                    <img src="imges/indexImges/floorSix/5.png" alt="">
+                    <div class="emersion">
+                        <p>北盘江第一大桥 </p>
+                        <p>(世界第一高桥)</p>
+                    </div>
+                </div>
+                <div class="floorSixBoxBottom">
+                    <img src="imges/indexImges/floorSix/6.png" alt="">
+                    <div class="emersion">
+                        <p>溪洛渡水电站 </p>
+                        <p>(工程界诺贝尔奖)</p>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both"></div>
+            <div class="more">
+                <div>查看更多+</div>
+            </div>
+        </div>
+    </div>
+    <!-- 第六层 -end -->
+    <!-- 第七层标题 -->
+    <div class="floorSeven">
+        <div class="intoChina">
+            <div class="intoChinaTop">
+                <div class="" style="color:#FFFFFF;font-size:24px;margin:0 auto;text-align: center; line-height: 70px;">
+                    发展理念</div>
+            </div>
+            <div class="intoChinaBottom ">
+                从“十二五”以来特别是党的十八大以来，党中央、国务院高度重视科技创新，作出深入实施创新驱动发展战略的重大决策部署。我国科技创新步入以跟踪为主转向跟踪和并跑、领跑并存的新阶段，正处于从量的积累向质的飞跃、从点的突破向系统能力提升的重要时期，在国家发展全局中的核心位置更加凸显，在全球创新版图中的位势进一步提升，已成为具有重要影响力的科技大国。
+            </div>
+        </div>
+    </div>
+    <!-- 第七层标题 -end -->
+    <!-- 第八层手风琴 -->
+    <div class="floorEight">
+        <div class="pic">
+            <ul>
+                <li class="pic1" style="width: 19.98%; overflow: hidden;">
+                    <a href="javascript:;">
+                        <div class="txt">
+                            <p class="p1">中国航天</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="pic2" style="width: 19.97%; overflow: hidden;">
+                    <a href="javascript:;">
+                        <div class="txt">
+                            <p class="p1">中国天眼</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="pic3" style="width:19.97%; overflow: hidden;">
+                    <a href="javascript:;">
+                        <div class="txt">
+                            <p class="p1">量子技术</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="pic4" style="width: 19.97%;; overflow: hidden;">
+                    <a href="javascript:;">
+                        <div class="txt">
+                            <p class="p1">中国高铁</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="pic5" style="width: 19.97%; overflow: hidden;">
+                    <a href="javascript:;">
+                        <div class="txt">
+                            <p class="p1">能源发电</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 第八层手风琴 -end-->
+    <div class="more moreMNargin">
+        <div>查看更多+</div>
+    </div>
+    <!-- 脚注 -->
+    <div class="footnote">
+        <div class="footnoteBox">
+            <div class="float footnoteLogo">
+                <img src="imges/indexImges/1.png" alt="">
+                <img style="margin-bottom: 5px;" src="imges/indexImges/国魂1.png" alt="">
+            </div>
+            <div class="float footnoteTheme">
+                <p class="textTop">中国政府网 &nbsp; | &nbsp; 关于本网 &nbsp; | &nbsp; 网站声明 &nbsp; | &nbsp; 网站地图 &nbsp; | &nbsp;
+                    联系我们 &nbsp; |
+                    &nbsp; 网站纠错</p>
+                <p class="textTop">网站单位：国务院办公厅　网站运行维护单位：中国政府网运行中心</p>
+
+                <p class="textBottom">相关链接：全国人大 &nbsp;&nbsp; &nbsp; | &nbsp;&nbsp; &nbsp; 全国政协 &nbsp; &nbsp;&nbsp;
+                    &nbsp; | &nbsp; &nbsp;&nbsp; &nbsp; 国家监察委员会 &nbsp; &nbsp;&nbsp; &nbsp; | &nbsp; &nbsp;&nbsp; &nbsp;
+                    最高人民法院 &nbsp; &nbsp;&nbsp; &nbsp; | &nbsp; &nbsp;&nbsp; &nbsp; 最高人民检察院
+                </p>
+                <p class="textBottom"> 网站标识码bm00000000　京ICP备88888888号　京公网安备88888088888888号</p>
+            </div>
+            <div class="float footnoteBottom">
+                <img src="imges/indexImges/图层%2050.png" alt="">
+                <p>中国政府网微信、微博</p>
+            </div>
+        </div>
+    </div>
+    <!-- 脚注 -end -->
+    <script>
+        // banner背景轮播图
+        var icons = document.querySelectorAll(".icons>li");
+        icons = Array.prototype.slice.call(icons);
+        var curr = 0;
+        var box = document.querySelector('.banner');
+        var advs = document.querySelector('.advs');
+        var box_width = box.offsetWidth;
+        var imgWidth = document.querySelectorAll('.advs img')
+        imgWidth = Array.prototype.slice.call(imgWidth);
+        var sp_adv_show = function () {
+            curr = arguments[0];
+            // console.log(curr);
+            var distance = -curr * box_width;//往左移动的距离
+            advs.style.left = distance + "px";
+        }
+        for (var i of imgWidth) {
+            i.style.width = box_width + "px";
+        }
+
+        function leftShow() {
+            if (curr <= 2) {
+                curr++;
+                // console.log("dada",curr)
+            } else if (curr >= 3) {
+                curr = 0;
+                // console.log("dada",curr)
+            }
+            var distance = -curr * box_width;//往左移动的距离
+            advs.style.left = distance + "px";
+        }
+        var li = []
+        for (var x of icons) {
+            x.onmouseover = function () {
+                var num = icons.indexOf(this);
+                sp_adv_show(num);
+            }
+
+        }
+        // banner背景轮播图 -end
+
+        // 手风琴
+        // 手风琴
+        // 鼠标经过时触发
+        $(".pic ul li").mouseover(function () {
+            $(this).stop(true).animate({ width: "81.5%" }, 1000)
+                .siblings().stop(true).animate({ width: "4.6%" }, 1000);
+        });
+
+        $(".pic ul li").mouseout(function () {
+            $(this).stop(true).animate({ width: "19.95%" }, 1000)
+                .siblings().stop(true).animate({ width: "19.95%" }, 1000);
+        });
+        $(".pic>ul>li>a>div").mouseover(function () {
+            console.log("看看我是谁", $(this).siblings().removeClass("txt"))
+            $(this).siblings().removeClass("txt")
+            // .siblings().stop(true).animate({width:"4.6%"},1000);
+        });
+
+        //   手风琴 -end
+
+        //垂直轮播图
+        var w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth
+        var h = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight
+        $(window).resize(function () {
+            w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth
+            h = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight
+
+            resizeWindow()
+        }
+        )
+        var tableWidth = 99
+        var mobileWidth = 768
+        var currentBrand = 0
+        var transflag = 0
+        var brandlist = new Array()
+        var brandslen = $(".allbrandslist li").size()
+        var promotionlist = new Array()
+        var promotionlen = $(".allpromotionslist li").size()
+        var gameslen = $(".gamelist .game-item").size()
+        gamelenperline = Math.ceil(gameslen / 2)
+        gamelenperlinewidth = gamelenperline * 300
+        $(".gamelist").css("width", gamelenperlinewidth)
+        var dragflag = false
+        var isDragging = false
+        var currentgamestr = ""
+        var lastgamestr = ""
+        var promotionstate = ""
+        var brandpicstate = ""
+
+        $(".navbar-nav-ubi2015 li:first").addClass("active")
+        function resizeWindow() {
+            resizeCommonWindow()
+            resizeGlobalFooter()
+            var promotionStr = ""
+            var promotion_indicators_Str = ""
+
+            if (parseInt($(".gamelist").width()) + parseInt($(".gamelist").css("left")) < w) {
+                $(".gamelist").css("left", w - parseInt($(".gamelist").width()))
+            }
+            if (w >= tableWidth && promotionstate != "pc") {
+                promotionstate = "pc"
+                var t_p = Math.ceil(promotionlen / 2)
+                if (t_p == 1) {
+                    $(".promotionslide .carousel-indicators").hide()
+                    $(".promotion-control").hide()
+                    $(".promotionslide .carousel-inner").css("padding-bottom", "6vw")
+                } else {
+                    $(".promotionslide .carousel-indicators").show()
+                    $(".promotion-control").show()
+                    $(".promotionslide .carousel-inner").css("padding-bottom", "0")
+                }
+                for (i = 0; i < t_p; i++) {
+                    var li1 = "<li>" + promotionlist[i * 2 + 0] + "</li>"
+                    if ((i * 2 + 1) < promotionlen) {
+                        var li2 = "<li>" + promotionlist[i * 2 + 1] + "</li>"
+                    } else {
+                        var li2 = ""
+                    }
+                    if (i == 0) {
+                        promotionStr = promotionStr + "<ul class='item active'>" + li1 + li2 + "</ul>"
+                        promotion_indicators_Str = promotion_indicators_Str + "<li data-target='#promotionbanner' data-slide-to='" + i + "' class='active'></li>"
+                    } else {
+                        promotionStr = promotionStr + "<ul class='item'>" + li1 + li2 + "</ul>"
+                        promotion_indicators_Str = promotion_indicators_Str + "<li data-target='#promotionbanner' data-slide-to='" + i + "'></li>"
+                    }
+
+                }
+                $(".promotionslide .carousel-inner").html(promotionStr)
+                $(".promotionslide .carousel-indicators").html(promotion_indicators_Str)
+            } else if (w < tableWidth && promotionstate != "notpc") {
+                promotionstate = "notpc"
+                if (promotionlen == 1) {
+                    $(".promotionslide .carousel-indicators").hide()
+                    $(".promotion-control").hide()
+                    $(".promotionslide .carousel-inner").css("padding-bottom", "6vw")
+                } else {
+                    $(".promotionslide .carousel-indicators").show()
+                    $(".promotion-control").show()
+                    $(".promotionslide .carousel-inner").css("padding-bottom", "0")
+                }
+                for (i = 0; i < promotionlen; i++) {
+                    if (i == 0) {
+                        promotionStr = promotionStr + "<ul class='item active'><li>" + promotionlist[i] + "</li></ul>"
+                        promotion_indicators_Str = promotion_indicators_Str + "<li data-target='#promotionbanner' data-slide-to='" + i + "' class='active'></li>"
+                    } else {
+                        promotionStr = promotionStr + "<ul class='item'><li>" + promotionlist[i] + "</li></ul>"
+                        promotion_indicators_Str = promotion_indicators_Str + "<li data-target='#promotionbanner' data-slide-to='" + i + "'></li>"
+                    }
+                }
+                $(".promotionslide .carousel-inner").html(promotionStr)
+                $(".promotionslide .carousel-indicators").html(promotion_indicators_Str)
+            }
+            if (w >= mobileWidth && brandpicstate != "notmobile") {
+                brandpicstate = "notmobile"
+                $(".brandviews .item").each(function () {
+                    $(this).find("img").attr("src", $(this).find("img").data("desktop"))
+                })
+            } else if (w < mobileWidth && brandpicstate != "mobile") {
+                brandpicstate = "mobile"
+                $(".brandviews .item").each(function () {
+                    $(this).find("img").attr("src", $(this).find("img").data("mobile"))
+                })
+            }
+
+        }
+
+        $(".myvideo").on("click", function () {
+            modal_html = "<div class='media'><iframe id='fd-player' frameborder='0' scrolling='no' allowfullscreen='' title='ubi_player' width='100%' height='100%' src='https://www.ubisoft.com.cn/events/videoplayer.html?v=" + $(this).data("href") + "'></iframe></div>"
+            $(".Modal-body").html(modal_html)
+            $(".Modal").addClass("is-showing")
+        });
+        // $(".nlink").on("click", function () {
+        //     window.location = $(this).data("href")
+        // });
+
+        $(".Modal .close-button").on("click", function () {
+            $(".Modal").removeClass("is-showing")
+            $(".Modal-body").html("")
+        })
+
+
+
+        function goSlide(direction) {
+            $('#promotionbanner').carousel(direction);
+        }
+        $(".allbrandslist li").each(function (i) {
+            brandlist[i] = $(this).html()
+        })
+        $(".allpromotionslist li").each(function (i) {
+            promotionlist[i] = $(this).html()
+        })
+        $(".brand-indicators ul").on('transitionend', function (e) {
+            if (e.target === this) {
+                transflag = 0
+                brandbarback()
+                $(".brandviews .item.active .gamebreif").fadeIn(500, function () {
+                    $(".brandviews .item.active .buttons button").fadeIn(1000)
+                })
+            }
+        });
+        $(".brand-indicators ul").on('webkitTransitionEnd', function (e) {
+            if (e.target === this) {
+                transflag = 0
+                brandbarback()
+                $(".brandviews .item.active .gamebreif").fadeIn(500, function () {
+                    $(".brandviews .item.active .buttons button").fadeIn(1000)
+                })
+            }
+        });
+
+
+        function brandbarback() {
+            clearTranslate()
+            clearIndicatorsClass()
+            $(".brand-indicators li").eq(0).addClass("periphery")
+            $(".brand-indicators li").eq(1).addClass("periphery")
+            $(".brand-indicators li").eq(2).addClass("pre2")
+            $(".brand-indicators li").eq(3).addClass("pre")
+            $(".brand-indicators li").eq(4).addClass("active")
+            $(".brand-indicators li").eq(5).addClass("next")
+            $(".brand-indicators li").eq(6).addClass("next2")
+            $(".brand-indicators li").eq(7).addClass("periphery")
+            $(".brand-indicators li").eq(8).addClass("periphery")
+
+            $(".brand-indicators li").each(function (i) {
+                var t = getNumber(i)
+                $(this).data("slideto", t);
+                $(this).html(brandlist[t])
+            })
+
+        }
+        function clearIndicatorsClass() {
+            $(".brand-indicators li").removeClass("periphery")
+            $(".brand-indicators li").removeClass("transferopacity")
+            $(".brand-indicators li").removeClass("active")
+            $(".brand-indicators li").removeClass("pre")
+            $(".brand-indicators li").removeClass("next")
+            $(".brand-indicators li").removeClass("pre2")
+            $(".brand-indicators li").removeClass("next2")
+        }
+        function getNumber(n) {
+            return (brandslen + currentBrand - (4 - n)) % brandslen
+        }
+        function moveLeft1() {
+            $(".brand-indicators li").eq(0).addClass("periphery transferopacity")
+            $(".brand-indicators li").eq(1).addClass("pre2")
+            $(".brand-indicators li").eq(2).addClass("pre")
+            $(".brand-indicators li").eq(3).addClass("active")
+            $(".brand-indicators li").eq(4).addClass("next")
+            $(".brand-indicators li").eq(5).addClass("next2")
+            $(".brand-indicators li").eq(6).addClass("periphery transferopacity")
+            $(".brand-indicators li").eq(7).addClass("periphery transferopacity")
+            $(".brand-indicators li").eq(8).addClass("periphery transferopacity")
+        }
+        function moveLeft2() {
+            $(".brand-indicators li").eq(0).addClass("pre2")
+            $(".brand-indicators li").eq(1).addClass("pre")
+            $(".brand-indicators li").eq(2).addClass("active")
+            $(".brand-indicators li").eq(3).addClass("next")
+            $(".brand-indicators li").eq(4).addClass("next2")
+            $(".brand-indicators li").eq(5).addClass("periphery transferopacity")
+            $(".brand-indicators li").eq(6).addClass("periphery transferopacity")
+            $(".brand-indicators li").eq(7).addClass("periphery transferopacity")
+            $(".brand-indicators li").eq(8).addClass("periphery transferopacity")
+        }
+        function moveRight1() {
+            $(".brand-indicators li").eq(0).addClass("periphery transferopacity")
+            $(".brand-indicators li").eq(1).addClass("periphery transferopacity")
+            $(".brand-indicators li").eq(2).addClass("periphery transferopacity")
+            $(".brand-indicators li").eq(3).addClass("pre2")
+            $(".brand-indicators li").eq(4).addClass("pre")
+            $(".brand-indicators li").eq(5).addClass("active")
+            $(".brand-indicators li").eq(6).addClass("next")
+            $(".brand-indicators li").eq(7).addClass("next2")
+            $(".brand-indicators li").eq(8).addClass("periphery transferopacity")
+        }
+        function moveRight2() {
+            $(".brand-indicators li").eq(0).addClass("periphery transferopacity")
+            $(".brand-indicators li").eq(1).addClass("periphery transferopacity")
+            $(".brand-indicators li").eq(2).addClass("periphery transferopacity")
+            $(".brand-indicators li").eq(3).addClass("periphery transferopacity")
+            $(".brand-indicators li").eq(4).addClass("pre2")
+            $(".brand-indicators li").eq(5).addClass("pre")
+            $(".brand-indicators li").eq(6).addClass("active")
+            $(".brand-indicators li").eq(7).addClass("next")
+            $(".brand-indicators li").eq(8).addClass("next2")
+
+        }
+        function goNextSlide() {
+            if (transflag == 0) {
+                transflag = 1
+                if (currentBrand < brandslen - 1) {
+                    currentBrand = currentBrand + 1
+                } else {
+                    currentBrand = 0
+                }
+                showBrand()
+                clearTranslate()
+                clearIndicatorsClass()
+                moveRight1()
+                $(".brand-indicators ul").addClass("movetoleft1")
+            }
+        }
+        function goPreSlide() {
+            if (transflag == 0) {
+                transflag = 1
+                if (currentBrand > 0) {
+                    currentBrand = currentBrand - 1
+                } else {
+                    currentBrand = brandslen - 1
+                }
+                showBrand()
+                clearTranslate()
+                clearIndicatorsClass()
+                moveLeft1()
+                $(".brand-indicators ul").addClass("movetoright1")
+            }
+        }
+        $(".brand-indicators li").on("click", function () {
+            if (transflag == 0) {
+                if ($(this).hasClass("active")) {
+                } else {
+                    transflag = 1
+                    currentBrand = $(this).data("slideto")
+                    showBrand()
+                    clearTranslate()
+
+                    if ($(this).hasClass("next")) {
+                        clearIndicatorsClass()
+                        moveRight1()
+                        $(".brand-indicators ul").addClass("movetoleft1")
+                    } else if ($(this).hasClass("next2")) {
+                        clearIndicatorsClass()
+                        moveRight2()
+                        $(".brand-indicators ul").addClass("movetoleft2")
+                    } else if ($(this).hasClass("pre")) {
+                        clearIndicatorsClass()
+                        moveLeft1()
+                        $(".brand-indicators ul").addClass("movetoright1")
+                    } else if ($(this).hasClass("pre2")) {
+                        clearIndicatorsClass()
+                        moveLeft2()
+                        $(".brand-indicators ul").addClass("movetoright2")
+                    }
+
+                }
+            }
+        })
+        function clearTranslate() {
+            $(".brand-indicators ul").removeClass("movetoleft1")
+            $(".brand-indicators ul").removeClass("movetoleft2")
+            $(".brand-indicators ul").removeClass("movetoright1")
+            $(".brand-indicators ul").removeClass("movetoright2")
+        }
+
+        function showBrand() {
+            $(".brand-indicators li").removeClass("active")
+            $(".brand-indicators li").each(function () {
+                if ($(this).data("slideto") == currentBrand) {
+                    $(this).addClass("active")
+                    return false;
+                }
+            })
+            $(".brandviews .item").removeClass("active")
+            $(".brandviews .item .buttons button").hide()
+            $(".brandviews .item .gamebreif").hide()
+            $(".brandviews .item").eq(currentBrand).addClass("active")
+        }
+        $(".game-item a").on("click", function () {
+            if (!isDragging) {
+                $(this).attr("href", $(this).data("href"))
+            }
+            t = setTimeout(function () {
+                isDragging = false
+                $(".game-item a").removeAttr("href")
+            }, 200)
+        })
+        var drag2 = function (obj) {
+            var myBlock = document.getElementById('gamelist');
+            var lastPosX = 0;
+            var mc = new Hammer(myBlock);
+            mc.on("panstart", handleStart);
+            mc.on("panmove", handleDrag);
+            function handleStart(ev) {
+                var elem = myBlock;
+                lastPosX = elem.offsetLeft;
+                isDragging = false;
+            }
+            function handleDrag(ev) {
+                var elem = myBlock;
+                isDragging = true;
+                if (ev.deltaX + lastPosX <= 0 && ev.deltaX + lastPosX >= w - gamelenperlinewidth) {
+                    var posX = ev.deltaX + lastPosX;
+                } else if (ev.deltaX + lastPosX > 0) {
+                    var posX = 0;
+                } else if (ev.deltaX + lastPosX < w - gamelenperlinewidth) {
+                    var posX = w - gamelenperlinewidth;
+                }
+                elem.style.left = posX + "px";
+            }
+
+
+        }
+        var drag = function (obj) {
+            obj.bind("mousedown", start);
+            function start(event) {
+                dragflag = false
+                $(".game-item a").removeAttr("href")
+                if (event.button == 0) {//判断是否点击鼠标左键
+                    /*
+                                              * clientX和clientY代表鼠标当前的横纵坐标
+                                              * offset()该方法返回的对象包含两个整型属性：top 和 left，以像素计。此方法只对可见元素有效。
+                                              * bind()绑定事件，同样unbind解绑定，此效果的实现最后必须要解绑定，否则鼠标松开后拖拽效果依然存在
+                                              * getX获取当前鼠标横坐标和对象离屏幕左侧距离之差（也就是left）值，
+                                              * getY和getX同样道理，这两个差值就是鼠标相对于对象的定位，因为拖拽后鼠标和拖拽对象的相对位置是不变的
+                                              */
+                    gapX = event.clientX - obj.offset().left;
+                    //movemove事件必须绑定到$(document)上，鼠标移动是在整个屏幕上的
+                    $(document).bind("mousemove", move);
+                    //此处的$(document)可以改为obj
+                    $(document).bind("mouseup", stop);
+
+                }
+                return false;//阻止默认事件或冒泡
+            }
+            function move(event) {
+                dragflag = true
+                if (event.clientX - gapX <= 0 && event.clientX - gapX >= $(window).width() - gamelenperlinewidth) {
+                    obj.css({
+                        "left": (event.clientX - gapX) + "px",
+                    });
+                } else if (event.clientX - gapX > 0) {
+                    obj.css({
+                        "left": "0px",
+                    });
+                } else if (event.clientX - gapX < $(window).width() - gamelenperlinewidth) {
+                    obj.css({
+                        "left": ($(window).width() - gamelenperlinewidth) + "px",
+                    });
+                }
+                return false;//阻止默认事件或冒泡
+            }
+            function stop(e) {
+                $(document).unbind("mousemove", move);
+                $(document).unbind("mouseup", stop);
+                return false;
+            }
+        }
+        $(document).ready(function () {
+            $("img").on("mousedown", function (e) {
+                e.preventDefault()
+            })
+            var slideImage = $('.brandviews'),
+                promoImage = $('.allpromotionslist'),
+                newImage = $("<img/>"),
+                image1 = slideImage.find('img'),
+                image2 = promoImage.find('img'),
+                imgLen1 = image1.length
+            imgLen2 = image2.length;
+            imgLen = imgLen1 + imgLen2;
+            imageloaded = 0;
+            if (w < mobileWidth) {
+                targetImg = "mobile"
+                bgurl = slideImage.attr("data-topbg")
+            } else {
+                targetImg = "desktop"
+                bgurl = slideImage.attr("data-topmobilebg")
+            }
+            for (var i = 0; i < imgLen1; i++) {
+                var bannerImage = $("<img/>");
+                bannerImage.load(function () {
+                    imageloaded = imageloaded + 1;
+                    if (imageloaded == imgLen) {
+                        $("#loadingScreen").animate({ 'top': '-100%' }, 500, function () { $("#loadingScreen").remove(); });
+                    };
+                }).attr('src', $(image1[i]).data(targetImg));
+            }
+            for (var i = 0; i < imgLen2; i++) {
+                var bannerImage2 = $("<img/>");
+                bannerImage2.load(function () {
+                    imageloaded = imageloaded + 1;
+                    if (imageloaded == imgLen) {
+                        $("#loadingScreen").animate({ 'top': '-100%' }, 500, function () { $("#loadingScreen").remove(); });
+                    };
+                }).attr('src', $(image2[i]).attr("src"));
+            }
+
+
+            $.getUrlParam = function (name) {
+                var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+                var r = window.location.search.substr(1).match(reg);
+                if (r != null) return unescape(r[2]); return null;
+            }
+            obj = $(".gamelist");
+            drag2(obj);
+
+            resizeWindow();
+            var currentgamestr = $.getUrlParam('game')
+            if (currentgamestr) {
+                $(".brandviews .item").each(function (i) {
+                    if ($(this).data("game") == currentgamestr) {
+                        currentBrand = i
+                        getNumber(currentBrand)
+                        return false;
+                    }
+                })
+            }
+            showBrand()
+            brandbarback();
+            $(".brandviews .item.active .gamebreif").fadeIn(500, function () {
+                $(".brandviews .item.active .buttons button").fadeIn(1000)
+            })
+
+            $('#promotionbanner').hammer().on('swipeleft', function () {
+                $(this).carousel('next');
+            });
+            $('#promotionbanner').hammer().on('swiperight', function () {
+                $(this).carousel('prev');
+            });
+            $('.brandviews').hammer().on('swipeleft', function () {
+                goNextSlide()
+            });
+            $('.brandviews').hammer().on('swiperight', function () {
+                goPreSlide()
+            });
+        });
+        //   手风琴 -end
+
+        //垂直轮播图
+
+        //垂直轮播图 -end
+    </script>
+</body>
+
+</html>

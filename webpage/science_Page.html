@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>中国科技</title>
+    <link rel="stylesheet" href="../Style/science_page/science.css">
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: 'MicrosoftYaHei';
+        list-style: none;
+        text-decoration: none;
+    }
+
+    a {
+        color: #000;
+        display: block;
+        width: 100%;
+    }
+
+    a:hover {
+        color: #fff;
+    }
+</style>
+
+<body>
+    <!-- 导航条 -->
+    <div class="nava">
+            <div class="nav">
+                <div class="navBox navFlex_left">
+                    <div class="navBox logo">
+                        <img src="../imges/indexImges/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="navBox navFlex_right">
+                    <div class="navBox">
+                        <a href="../index.html">首页</a>
+                    </div>
+                    <div class="navBox hoverBOx">
+                        <a href="./science_Page.html">中国科技</a>
+                        <div class="sonPage">
+                            <a href="./NewEnergy.html">
+                                    <div class="sonPage_title">新型能源</div></a>
+                            <a href="./High_Speed.html">
+                                <div class="sonPage_title">中国高铁</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="navBox hoverBOx">
+                            <a href="">中国建造</a>
+                            <div class="sonPage">
+                                <a href="./construct.html">
+                                    <div class="sonPage_title">中国大桥</div>
+                                    <a href="./highway.html">
+                                        <div class="sonPage_title">中国公路</div>
+                                    </a>
+                                    <a href="./port.html">
+                                        <div class="sonPage_title">中国港口</div>
+                                    </a>
+                            </div>
+                        </div>
+                    <div class="navBox hoverBOx">
+                        <a href="./develop_idea.html">发展理念</a>
+                        <div class="sonPage">
+    
+                        </div>
+                    </div>
+                    <div class="navBox hoverBOx">
+                        <a href="./zoology_environment.html">生态环境</a>
+                        <div class="sonPage">
+                        </div>
+                    </div>
+                    <div class="navBox hoverBOx"><a href="./Good_life.html">美好生活</a>
+                        <div class="sonPage">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 导航条 -end -->
+    <!-- banner部分 -->
+    <div class="banner">
+        <ul class="advs">
+            <img src="../imges/science/science/未标题-2.jpg">
+            <img src="../imges/science/science/创新中国科技峰会海报.jpg">
+            <img src="../imges/science/science/未标题11-2.jpg">
+            <img src="../imges/science/science/45东方红中国航天日.jpg">
+        </ul>
+        <div class="upPage" onclick="upPage()">
+            <img src="../imges/science/science/图层 1.png" alt="">
+        </div>
+        <div class="nextPage" onclick="nextPage()">
+                <img src="../imges/science/science/图层 2.png" alt="">
+        </div>
+    </div>
+    <!-- banner部分 -end -->
+    <!-- 第一层视频文字内容 -->
+    <div class="floor_1">
+        <p>中华人民共和国科技</p>
+        <div class="redWire"></div>
+        <div class="floorText">
+            中华人民共和国的科学技术水平得到了很大提高，在计算机、航空航天、生物工程、新能源、新材料、激光技术等领域都取得了重大科技成果。20世纪80至90年代，中国政府先后推出“863计划”和“科教兴国战略”，两者大大促进了该国科技的发展和进步。中国设有众多公立的科研机构，包括中国科学院、中国工程院和许多研究型大学。每年都有大量国家拨款用于科研。在超大规模集成电路、超级计算机、航天、可控热核聚变等方面国际竞争能力也在快速提一升当中。
+        </div>
+        <p class="subhead">中国1978年~2018年经济发展史</p>
+        <div class="video">
+            <video style="height: 100%;width: 100%;" src="../imges/science/science/2.mp4" controls="controls"></video>
+        </div>
+    </div>
+    <!-- 第一层视频文字内容 -end -->
+    <!-- 第二层标题内容  -->
+    <div class="floor_2">
+        <p>电子技术</p>
+        <div class="redWire"></div>
+        <div class="floorText">
+            在电子与信息技术产业方面，中国取得了长足进步，达到世界一流水平。2009年中国制造世界上48.3%的电视机，49.9%的移动电话，60.9%的个人电脑，和75%的液晶监视器。国产制造的电子元件已成为一个重要来源，2010年中国软件行业在软件和信息服务市场的份额以高于15%的速度增加，在过去的十年里平均增幅达到36%。
+        </div>
+    </div>
+    <!-- 第二层标题内容 -end -->
+    <!-- 第三层 -->
+    <div class="floor_3">
+        <div class="box">
+            <div class="imgBox">
+                <div>
+                    <div class="shade">
+                        <div class="shadeText">
+                            <p>神威蓝光</p>
+                            中国以国产微处理器为基础制造出本国第一台超级计算机
+                        </div>
+                        <div class="shadeContent">
+                            这台名为“神威蓝光”的计算机2012年9月16日安装在山东省的国家超级计算济南中心。神威系统每秒能进行约1千万亿次运算，很可能排在世界最快的20台计算机之列。更为重要的是，该系统采用的8700片神威1600微处理器是由本国的一家计算机研究所
+                            设计、在上海制造的。
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="imgBox">
+                <div>
+                    <div class="shade">
+                        <div class="shadeText">
+                            <p>天河一号</p>
+                            国首台千万亿次超级计算机
+                        </div>
+                        <div class="shadeContent">
+                            “天河一号”超级计算机从2008年开始研制，于2010年8月在国家超级计算天津中心升级完成。2010年11月14日，国际TOP500组织在网站上公布了最新全球超级计算机前500强排行榜，中国首台千万亿次超级计算机系统“天河一号”排名全球第一。2012年6月18日，国际超级电脑组织公布的全球超级电脑500强名单中
+                            “天河一号”排名全球第五。
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="imgBox">
+                <div>
+                    <div class="shade">
+                        <div class="shadeText">
+                            <p>
+                                曙光星云
+                            </p>
+
+                            中国自主研发的第一台实测性能超千万亿次的超级计算机
+                            是世界上第三台同类计算机。
+
+                        </div>
+                        <div class="shadeContent">
+                            2010年6月1日，该超级计算机在北京正式亮相。2010年5月31日在全球最快超级计算机前500名排行榜上，“星云”超级计算机及其相关系统经过众多专家测评，跻身排行榜第二的位置，超越欧洲和日本的同类产品，其运算速度达每秒1270万亿次。是中国历史上在全球超级计算机中排名最好的一次。
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="imgBox">
+                <div>
+                    <div class="shade">
+                        <div class="shadeText">
+                            <p>
+                                量子态隐形传输
+                            </p>
+                            借助卫星网络、光纤网络等经典信道
+                            传输量子态携带的量子信息。
+                        </div>
+                        <div class="shadeContent">
+                            由中国科大和清华大学组成的联合小组成功实现了世界上最远距离的量子态隐形传输，16公里的传输距离比原世界纪录提高了20多倍。实验结果首次证实了在自由空间进行远距离量子态隐形传输的可行性，为全球化量子通信网络最终实现奠定了重要基础。
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- 第三层 -end -->
+    <!-- 第四层标题内容   搬用第二层样式-->
+    <div class="floor_4">
+        <p>中国高铁</p>
+        <div class="redWire"></div>
+        <div class="floorText">
+            中国大陆铁路分高速铁路、快速铁路、普通铁路。中国高铁居高铁级，而国铁Ⅰ级只用于快速铁路和骨干线普通铁路。中国通过引进加创新，研制"和谐号"动车组列车（CRH缩写即中国铁路高速列车）以及“复兴号”中国标准动车组
+            列车（CR）。2018年底中国高铁运营里程超过2.9万公里，占全球高铁运营里程的三分之二以上，超过其他国家总和。
+            2019年，计划确保投产高铁新线3200公里。截至2019年4月，中国高铁桥梁长度突破1.6万公里。
+        </div>
+    </div>
+    <!-- 第四层标题内容 -end -->
+    <!-- 第五层 -->
+    <div class="floor_5">
+        <div class="floor_5Box">
+            <div>
+                <div class="floor_5_boxes color">
+                    <div>从1997年到2007年的六次大提速，列车最高运行时速提高了110公里，全国铁路旅客列车平均旅行速度提高了10.4公里。</div>
+                </div>
+                <div class="floor_5_boxes">
+                    <img src="../imges/science/science/图层 42.png" alt="">
+                </div>
+                <div class="floor_5_boxes color">
+                    <div> “和谐号”不仅意味着速度，更意味着和谐，和谐号CRH5动车组列车和谐号CRH5动车组列车 </div>
+                </div>
+                <div class="floor_5_boxes">
+                    <img src="../imges/science/science/图层 45.png" alt="">
+                </div>
+            </div>
+            <div>
+                <div class="floor_5_boxes">
+                    <img src="../imges/science/science/图层 43.png" alt="">
+                </div>
+                <div class="floor_5_boxes color">
+                    <div>“和谐号”动车组列车走引进消化吸收再创新之路，顺应时代要求、符合我国实际，已经被实践证明是非常成功的自主创新模式。 </div>
+                </div>
+                <div class="floor_5_boxes">
+                    <img src="../imges/science/science/图层 44.png" alt="">
+                </div>
+                <div class="floor_5_boxes color">
+                    <div style="position:relative;">
+                        第六次大提速像一个“推进器”，将中国铁路快速推上了自主创新的现代化之路。“和谐号”动车组列车的诞生标志着中国铁路移动设备现代化跨上了新台阶，是中国铁路拥有高速铁路技术基础的标志。</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 第五层 -end -->
+    <!-- 第六层   -->
+    <div class="floor_6">
+        <p>中国航天</p>
+        <div class="redWire"></div>
+        <div class="floorText">
+            <div style="width: 1065px">
+                中国在2003年3月1日正式启动了第一个探月工程。首先是发射绕月卫星，继而是发射无人探测装置，实现月面软着陆探测，最后送机器人上月球建立观测点，并采回样本到地球。整个计划将历时20年，计划为最后的登月工程打下基础。2007年嫦娥一号绕月卫星的成功发射标志着中国已经成为了月球俱乐部的一员，第五个探测月球的国家。2010年中国发射第二颗探月卫星嫦娥二号，成果获取了世界上分辨率最高的7m分辨率的全月图。
+                2011年和2012年嫦娥二号先后探测了日地拉格朗日L2点和小行星4179，使得中国成为第三个探测日地拉格朗日点和第四个探测小行星的国家和组织，中国从此进入深空探测俱乐部。
+                中国将在2013年发射嫦娥三号月面着陆器和巡视车，并计划在未来执行载人登月计划。
+            </div>
+        </div>
+        <div style="text-align: left;margin: 32px auto;width: 1280px;">
+            <img src="../imges/science/science/图层 47.png" alt="">
+        </div>
+        <div class="floor_6Text">
+            中国发展航天事业的宗旨是：探索外太空，扩展对地球和宇宙的认识；和平利用外太空，促进人类文明和社会进步，造福全人类；满足经济建设、科技发展、国家安全和社会进步等方面的需求，提高全民科学素质，维护国家权益，增强综合国力。中国发展航天事业贯彻国家科技事业发展的指导方针，即自主创新、重点跨越、支撑发展、引领未来。
+        </div>
+        <div class="floor_6Bottom">
+            <div class="floor_6Bottom_left">
+                <img src="../imges/science/science/长征6号.png" alt="">
+            </div>
+            <div class="floor_6Bottom_right">
+                <div class="top">
+                    <img src="../imges/science/science/子午探空火箭.png" alt="" style="position: absolute;left:0;">
+                    <img src="../imges/science/science/长征11号.png" alt="" style="position: absolute;right: 0;">
+                </div>
+                <div class="bottom">
+                    <img src="../imges/science/science/长征3号.png" alt="" style="position: absolute;left:0;">
+                    <img src="../imges/science/science/鲲鹏-1b探空火箭.png" alt="" style="position: absolute;right: 0;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 第六层 -end -->
+    <div class="embellish">
+
+    </div>
+
+    <!-- 脚注 -->
+    <div class="footnote">
+        <div class="footnoteBox">
+            <div class="float footnoteLogo">
+                <img src="../imges/indexImges/1.png" alt="">
+                <img style="margin-bottom: 5px;" src="../imges/indexImges/国魂1.png" alt="">
+            </div>
+            <div class="float footnoteTheme">
+                <p class="textTop">中国政府网 &nbsp; | &nbsp; 关于本网 &nbsp; | &nbsp; 网站声明 &nbsp; | &nbsp; 网站地图 &nbsp; | &nbsp;
+                    联系我们 &nbsp; |
+                    &nbsp; 网站纠错</p>
+                <p class="textTop">网站单位：国务院办公厅　网站运行维护单位：中国政府网运行中心</p>
+
+                <p class="textBottom">相关链接：全国人大 &nbsp;&nbsp; &nbsp; | &nbsp;&nbsp; &nbsp; 全国政协 &nbsp; &nbsp;&nbsp;
+                    &nbsp; | &nbsp; &nbsp;&nbsp; &nbsp; 国家监察委员会 &nbsp; &nbsp;&nbsp; &nbsp; | &nbsp; &nbsp;&nbsp; &nbsp;
+                    最高人民法院 &nbsp; &nbsp;&nbsp; &nbsp; | &nbsp; &nbsp;&nbsp; &nbsp; 最高人民检察院
+                </p>
+                <p class="textBottom"> 网站标识码bm00000000　京ICP备88888888号　京公网安备88888088888888号</p>
+            </div>
+            <div class="float footnoteBottom">
+                <img src="../imges/indexImges/图层 50.png" alt="">
+                <p>中国政府网微信、微博</p>
+            </div>
+        </div>
+    </div>
+    <!-- 脚注 -end -->
+    <script src="../JavaScript/SciencePage/sciencePage.js"></script>
+</body>
+
+</html>

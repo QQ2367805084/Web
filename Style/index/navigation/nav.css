@@ -1,0 +1,478 @@
+/* --------公共部分------------ */
+.nava{
+	width: 100%;
+	height: 88px;
+	/* background: red; */
+	background: #fff;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	margin: 0 auto;
+	z-index:100;
+}
+.nav{
+    width: 1280px;
+    height: 88px;
+    /* background: red; */
+    background: #fff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0 auto;
+    z-index: 99;
+}  
+.navBox{
+    float: left;
+}
+.hoverBOx:hover .sonPage{
+    display: inline-block;
+}
+.sonPage_title{
+    color: #000;
+    background: #fff;
+    border-bottom: 1px solid rgba(229,229,229,1);
+}
+.sonPage_title:hover{
+    background: #E44444;
+    color: #fff;
+}
+
+.sonPage{
+    width: 100%;
+    height: 288px;
+    display: none;
+}
+.nav>div{
+    font-size: 18px;
+}
+/* -----------公共部分 -end----------- */
+/* -----------导航条LOGO标题部分----------- */
+.navFlex_left{
+    text-align: center;
+    width: 230px;
+    height: 100%;
+    /* background: green; */
+}
+.logo{
+    border-radius: 50%;
+    /* background: rebeccapurple; */
+    text-align: center;
+    line-height: 70px;
+    /* margin:0 71px; */
+}
+.title{
+    /* background: rebeccapurple; */
+    line-height: 88px;
+}
+/* -----------导航条LOGO标题部分 -end----------- */
+/* -----------导航条右边主题部分----------- */
+.navFlex_right{
+    width: 1050px;
+    height: 100%;
+    /* background: yellow; */
+}
+.navFlex_right>div{
+    width: 175px;
+    height:100%;
+    text-align: center;
+    line-height: 88px;
+}
+.navFlex_right>div:hover{
+    cursor: pointer;
+    background:#E44444;
+    color: #fff;
+}
+.navFlex_right>div:hover a{
+    color: #fff;
+}
+/* -----------导航条右边主题部分 -end----------- */
+
+
+/* banner轮播图 */
+.banner{
+    width: 100%;
+    height: 635px;
+    /* background: skyblue; */
+    margin-top: 88px;
+    position: relative;
+    overflow: hidden;
+}
+.banner ul {
+    list-style: none;
+}
+.advs {
+    width: 7680px;
+    height: 783px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: left 1s; /*样式的过渡效果，从一个状态到另一个状态要完成的时间*/
+}
+.advs li {
+    float: left;
+}
+.icons {
+    width: 300px;
+    position: absolute;
+    left: calc(50% - 150px);
+    bottom: 30px;
+    text-align: center;
+}
+
+.icons > li {
+    display: inline-block; /*即可以设置宽高，又变成了行级标签，而且标签之间的换行会转换成空格*/
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    background: none;
+    transition: all 0.3s ease;
+}
+.icons > li:hover {
+    background: #fff;
+}
+.icons > li.curr{
+    background: blue;
+}
+/* banner轮播图 -end*/
+
+/* 第一层首页内容 */
+.floorOne{
+    width: 1280px;
+    height: 740px;
+    /* background: pink; */
+    margin: 0 auto;
+    position: relative;
+    padding-top:130px ;
+}
+.float{
+    float: left;
+}
+.label{
+    width: 706px;
+    height: 110px;
+   position: absolute;
+   top: -15px;
+   left: 287px;
+   text-align: center;
+   color: #fff;
+}
+.lineBox{
+    width: 83px;
+    height: 2px;
+    background:#fff;
+    margin-top: 19px;
+}
+.flexBox{
+    width: 100%;
+    height: 100%;
+    /* background: yellow; */
+}
+.flexTop{
+    width: 100%;
+    height: 320px;
+    /* background: green; */
+}
+.flexBox img{
+    margin-top: 10px;
+}
+.flexLit{
+    width: 352px;
+    height: 280px;
+    /* background:red; */
+    text-align: center;
+    transition: all 0.5s ease;
+}
+.flexLit:hover{
+    box-shadow:4px 4px 21px 10px rgba(133,131,131,0.18);
+}
+.lingLei{
+    transition: all 0.5s ease;
+    position: absolute;
+    top:0;
+    left:77.5px;
+    width: 378px;
+}
+.lingLei:hover{
+    box-shadow:4px 4px 21px 10px rgba(133,131,131,0.18);
+}
+.flexLit>.text{
+font-size:24px;
+font-family:'MicrosoftYaHei';
+font-weight:400;
+color:rgba(51,51,51,1);
+line-height:44px;
+}
+.textContent{
+    width:306px;
+/* height:107px; */
+margin: 0 auto;
+text-align: left;
+font-size:18px;
+font-family:'MicrosoftYaHei';
+font-weight:400;
+color:rgba(153,153,153,1);
+line-height:44px;
+}
+.flexBig{
+    width: 531px;
+    height: 195px;
+    /* background: blue; */
+    text-align: center;
+    margin:52px 0px;
+    border-left: 1px solid rgba(219,219,219,1);
+    border-right: 1px solid rgba(219,219,219,1);
+}
+.flexBottom{
+    width: 913px;
+    background: skyblue;
+    margin: 20px auto;
+}
+.flexBottomLit{
+    height: 270px;
+    /* margin: 0 10px; */
+}
+/* 第一层首页内容  -end*/
+/* 第二层首页内容 */
+
+.floorTwo{
+    width: 100%;
+    height: 385px;
+    background: url(../../../imges/science/science/2.gif) no-repeat;
+    position: relative;
+}
+
+/* 第二层首页内容 end-*/
+
+/* 第三层标题 */
+.intoChina{
+    width: 1160px;
+    /* height: 252px; */
+    margin: 0 auto;
+    /* background: yellow; */
+    padding: 30px 0;
+}
+.intoChinaTop{
+    width: 510px;
+    height: 70px;
+    margin: 10px auto;
+    /* background: rgb(13, 2/9, 179) */
+}
+.intoChinaTop>.lineBox{
+    width: 162px;
+    height: 2px;
+    background:#DBDBDB;
+    margin-top: 34px;
+}
+.intoChinaBottom{
+    width: 100%;
+    line-height: 42px;
+    font-size: 20px;
+    color: #888888;
+}
+/* 第三层标题 -end */
+/* 第四层 */
+.floorFour{
+    width: 100%;
+    height: 520px;
+    background: url(../../../imges/indexImges/图层\ 27.png) no-repeat;
+    background-size: 100% 100%;
+    padding-top: 160px;
+    transition: all 1s ease;
+}
+.floorFourLeft{
+    margin-right: 43px;
+    width: 468px;
+    height: 100%;
+    /* background: red; */
+}
+.floorFourLeft>p{
+    font-size: 36px;
+    color: #FEFEFE;
+}
+.floorFourLeft>div{
+    line-height: 42px;
+    color: #FEFEFE;
+    font-size: 18px;
+}
+.floorFourRight{
+    margin-left: 44px;
+    width: 579px;
+    height: 100%;
+    background: #000;
+    cursor: pointer;
+}
+/* 第四层 -end */
+/* 第五层轮播图 */
+.fiveSlideshow{
+    width: 100%;
+    height: 252px;
+    background: url(../../../imges/science/science/1.gif);
+    margin: 0 auto;
+}
+
+/* 第五层轮播图 -end */
+/* 第六层 */
+.floorSix{
+    width: 100%;
+    background: url(../../../imges/indexImges/floorSix/42.png) no-repeat;
+    /* background: url(../../../imges/indexImges/矩形\ 17.png) no-repeat;
+    background-size: 100% 100%; */
+    /* padding-top: 100px; */
+    padding-bottom: 40px;
+}
+.floorSixBox{
+    width: 370px;
+    height: 1157px;
+    /* background: rebeccapurple; */
+    margin: 0 35px;
+    position: relative;;
+    overflow: hidden;
+}
+.floorSixBoxTop{
+    width: 370px;
+    height: 400px;
+    /* background: red; */
+    position: relative;
+    overflow: hidden;
+}
+.floorSixBoxBottom{
+    width: 370px;
+    height: 400px;
+    /* background: red; */
+    position: absolute;
+    bottom: 0;
+}
+.emersion{
+    width: 100%;
+    height:70% ;
+    background: rgba(0, 0, 0, 0.5);
+    transition: all 1s ease;
+    position: absolute;
+    bottom: -280px;
+    transition: all 0.5s ease;
+    color: #fff;
+    text-align: center;
+    line-height: 280px;
+    font-size: 24px;
+}
+.floorSixBoxBottom:hover .emersion,.floorSixBoxTop:hover .emersion{
+    position: absolute;
+    bottom: 0;
+}
+.malposition{
+    position: relative;
+    top: 110px;
+}
+.more{
+    width: 100%;
+    margin-top: 156px;
+    cursor: pointer;
+}
+.more>div{
+    width: 145px;
+    height: 45px;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 45px;
+    background:rgba(8,1,2,1);
+    border-radius:10px;
+}
+/* 第六层 -end */
+/* 第六层标题 */
+.sixTitle{
+    margin-top: 50px;
+}
+/* 第六层标题 -end */
+/* 第七层 */
+.floorSeven{
+    width: 100%;
+    background: #080102;
+}
+/* 第七层  -end */
+/* 第八层 */
+.floorEight{
+    width: 100%;
+    height: 960px;
+    /* background: red; */
+    margin: 0 auto;
+}
+/* 第八层 -end */
+.moreMNargin{
+    margin-top: 0;
+    /* margin-bottom: 112px; */
+    height: 135px;
+    background: rgba(189,189,189,1);
+    padding-top: 50px;
+}
+/* 脚注 */
+.footnote{
+    width: 100%;
+    height: 300px;
+    background: #303030;
+}
+.footnoteBox{
+    width: 1280px;
+    height: 100%;
+    /* background: lightgreen; */
+    margin: 0 auto;
+}
+.footnoteLogo{
+    margin-right: 30px;
+}
+.footnoteLogo>img:nth-child(1){
+    margin-top: 122px;
+}
+.footnoteLogo>img:nth-child(2){
+    margin-top: 135px;
+    margin-left: 12px;
+}
+.footnoteTheme{
+    line-height: 27px;
+     height: 181px;
+     width: 824px;
+     /* background: red; */
+     margin-top: 59.5px;
+}
+.footnoteTheme>.textTop{
+    width:727px;
+    height:54px;
+    font-size:20px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:27px;
+}
+.footnoteTheme>.textBottom{
+    width:853px;
+    height:54px;
+    font-size:16px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:27px;
+    opacity:0.5;
+}
+.footnoteBottom{
+    float: right;
+    margin-top: 56px;
+    text-align: center;
+}
+.footnoteBottom>img{
+    margin: 0 10px;
+}
+.footnoteBottom>p{
+    font-size: 18px;
+    color:rgba(255,255,255,1);
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    margin: 0 10px;
+}
+/* 脚注 -end */
+/* 背景轮播图 */

@@ -1,0 +1,663 @@
+/* --------公共部分------------ */
+.nava{
+	width: 100%;
+	height: 88px;
+	/* background: red; */
+	background: #fff;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	margin: 0 auto;
+	z-index:100;
+}
+.nav{
+    width: 1280px;
+    height: 88px;
+    /* background: red; */
+    background: #fff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0 auto;
+    z-index: 99;
+}  
+.navBox{
+    float: left;
+}
+.hoverBOx:hover .sonPage{
+    display: inline-block;
+}
+.sonPage_title{
+    color: #000;
+    background: #fff;
+    border-bottom: 1px solid rgba(229,229,229,1);
+}
+.sonPage_title:hover{
+    background: #E44444;
+    color: #fff;
+}
+
+.sonPage{
+    width: 100%;
+    height: 288px;
+    display: none;
+}
+.nav>div{
+    font-size: 18px;
+}
+/* -----------公共部分 -end----------- */
+/* -----------导航条LOGO标题部分----------- */
+.navFlex_left{
+    text-align: center;
+    width: 230px;
+    height: 100%;
+    /* background: green; */
+}
+.logo{
+    border-radius: 50%;
+    /* background: rebeccapurple; */
+    text-align: center;
+    line-height: 70px;
+    /* margin:0 71px; */
+}
+.title{
+    /* background: rebeccapurple; */
+    line-height: 88px;
+}
+/* -----------导航条LOGO标题部分 -end----------- */
+/* -----------导航条右边主题部分----------- */
+.navFlex_right{
+    width: 1050px;
+    height: 100%;
+    /* background: yellow; */
+}
+.navFlex_right>div{
+    width: 175px;
+    height:100%;
+    text-align: center;
+    line-height: 88px;
+}
+.navFlex_right>div:hover{
+    cursor: pointer;
+    background:#E44444;
+    color: #fff;
+}
+.navFlex_right>div:hover a{
+    color: #fff;
+}
+/* -----------导航条右边主题部分 -end----------- */
+
+.headtop{
+    width: 100%;
+    height: 850px;
+    background: url(../../imges/develop_idea/图层32.png) no-repeat;
+    background-size: 100% 100%;
+}
+.innovate{
+    text-align: center;
+    margin: 50px auto;
+    width: 1280px;
+    height: 655px;
+}
+.title_1{
+    font-size: 36px;
+}
+.content{
+    text-indent: 35px;
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+.newimg{
+    width: 1280px;
+    margin: 30px 0 0 0;
+}
+.newimg>div{
+    float: left;
+}
+.bimg_1{
+    width: 640px;
+    height: 475px;
+    margin: 0 20px 0 0;
+    background: url(../../imges/develop_idea/图层34.png) no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.text_1{
+    position: relative;
+    bottom: -473px;
+    left: 0;
+    transition: 1s all ease;
+    color: #ffffff;
+    font-size: 16px;
+    padding-top: 5px;
+}
+.bimg_1:hover .text_1{
+    position: relative;
+    bottom: -420px;
+    left: 0;
+}
+.bimgs>div{
+    float: left;
+}
+.bimg1{
+    width: 613px;
+    height: 255px;
+    margin:  0 0 30px 0;
+    background: url(../../imges/develop_idea/图层38.png)no-repeat;
+    background-size: 100% 100%; 
+    overflow: hidden;
+}
+.text_2{
+    background: rgba(0, 0, 0, 0.507);
+    position: relative;
+    bottom: -260px;
+    left: 0;
+    transition: 1s all ease;
+    height: 60px;
+    color: #ffffff;
+    font-size: 16px;
+    padding-top: 5px;
+}
+.bimg1:hover .text_2{
+    position: relative;
+    bottom: -195px;
+    left: 0;
+}
+.bimg2{
+    width: 260px;
+    height: 190px;
+    margin: 0 15px 0 0;
+    background: url(../../imges/develop_idea/图层35.png) no-repeat;
+    background-size: 100% 100%; 
+    overflow: hidden;
+}
+.text_3{
+    background: rgba(0, 0, 0, 0.507);
+    position: relative;
+    bottom: -190px;
+    left: 0;
+    transition: 1s all ease;
+    height: 57px;
+    color: #ffffff;
+    padding-top: 5px;
+    font-size: 16px;
+}
+.bimg2:hover .text_3{
+    position: relative;
+    bottom: -133px;
+    left: 0;
+}
+.bimg3{
+    width: 325px;
+    height: 187px;
+    margin:  0 0 0 15px;
+    background: url(../../imges/develop_idea/图层37.png) no-repeat;
+    background-size: 100% 100%; 
+    overflow: hidden;
+}
+.text_4{
+    background: rgba(0, 0, 0, 0.507);
+    position: relative;
+    bottom: -188px;
+    left: 0;
+    transition: 1s all ease;
+    height: 90px;
+    color: #ffffff;
+    font-size: 16px;
+    padding-top: 5px;
+}
+.bimg3:hover .text_4{
+    position: relative;
+    bottom: -110px;
+    left: 0;
+}
+
+/* 选项卡部分 */
+.tab{
+    width: 100%;
+    height: 780px;
+    background: #aaa;
+    margin: 150px auto 70px auto;
+    padding: 50px 0 0 0;
+    background: url(../../imges/develop_idea/形状3.png)
+}
+.tab_con{
+    width: 1280px;
+    height: 710px;
+    margin: 0 auto;
+}
+.tab_con>div{
+    float: left;
+    
+}
+.rightcon{
+    width: 640px;
+    height: 710px;
+    margin: 0 70px 0 0;
+    overflow: hidden;
+}
+.leftbut{
+    width: 360px;
+    height: 60px;
+    margin: 0 auto
+}
+.leftbut>div{
+    float: left;
+    width: 178px;
+    height: 100%;
+    text-align: center;
+    line-height: 60px;
+    border: 1px solid red;
+    font-size: 22px;
+    cursor: pointer;
+}
+.leftcon{
+    /* height: 710px; */
+    width: 1280px;
+    position: relative;
+    top: 0;
+    left: 0;
+    /* transition: all 0.6s; */
+}
+.leftcon>div{
+    float: left;
+    width: 50%;
+    margin: 0;
+    text-indent: 34px;
+    font-size: 16px;
+    /* text-align: center */
+}
+.leftimg{
+    width: 535px;
+    margin: 10px 25px 0 0 
+}
+.img1{
+    margin:  0 0 30px 0;
+    width: 535px;
+    height: 315px;
+}
+.img2{
+    width: 535px;
+    height: 345px;
+}
+.active{
+    width: 178px;
+    height: 100%;
+    color: #ffffff;
+    background: red;
+    text-align: center;
+    line-height: 60px;
+    border: 1px solid red;
+}
+.lcon{
+    width: 100%;
+    margin: 50px 0 0 0;
+}
+.lcon>div{
+    float: left;
+}
+.technology{
+    width: 1280px;
+    height: 778px;
+    margin: 100px auto 0 auto
+}
+.title_2{
+    height: 47px;
+    font-size: 36px;
+    margin-left: 10px; 
+    margin-bottom: 70px;
+}
+.title_2>div{
+    float: left;
+}
+.imgs{
+    width: 1280px;
+    height: 240px;
+    /* position: absolute */
+}
+.imgs>div{
+    float: left;
+}
+.img3{
+    width: 400px;
+    height: 240px;
+    margin: 0px;
+}
+.img3>img{
+    width: 400px;
+    height: 240px;
+    transition: 1s all ease;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.img3>img:hover{
+    width: 480px;
+    height: 287px;
+    position: relative;
+    top: -24px;
+    left: -40px;
+    transition: 1s all ease;
+    z-index: 99;
+}
+.img4{
+    width: 400px;
+    height: 240px;
+    margin: 0 40px;
+    top: 0
+}
+.img4>img{
+    width: 400px;
+    height: 240px;
+    transition: 1s all ease;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.img4>img:hover{
+    width: 480px;
+    height: 287px;
+    position: relative;
+    top: -24px;
+    left: -40px;
+    margin: 0px;
+    transition: 1s all ease;
+    z-index: 99;
+}
+.img5{
+    width: 400px;
+    height: 240px;
+    margin: 0px;
+}
+.img5>img{
+    width: 400px;
+    height: 240px;
+    transition: 1s all ease;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.img5>img:hover{
+    width: 480px;
+    height: 287px;
+    position: relative;
+    top: -24px;
+    left: -40px;
+    margin: 0px;
+    transition: 1s all ease;
+    z-index: 99;
+}
+.newcon{
+    width: 1180px;
+    text-indent: 42px;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 50px  auto
+}
+/* <!-- 协调发展 --> */
+.progress{
+    width: 1280px;
+    margin: 150px auto 0 auto;
+}
+.imgs2{
+    margin-top: 50px
+}
+.imgs2>div{
+    float: left;
+}
+.limg2{
+    margin-right:20px; 
+}
+.leftimg1{
+    width: 477px;
+    height: 227px;
+    background: url(../../imges/develop_idea/图层46.png) no-repeat;
+    background-size: 100% 100%; 
+    margin-bottom: 20px;
+    z-index: 1;
+    
+}
+.leftimg2{
+    width: 477px;
+    height: 275px;
+    background: url(../../imges/develop_idea/图层48.png) no-repeat;
+    background-size: 100% 100%; 
+    z-index: 1;
+}
+.ltitle1{
+    font-size: 24px;
+    text-align: center;
+    padding: 40px 0 20px 0;
+    color: #ffffff
+}
+.shanhai{
+    color: #ffffff;
+    width: 405px;
+    margin: 0 auto;
+    line-height: 28px;
+    font-size: 16px
+}
+.ltitle2{
+    font-size: 24px;
+    text-align: center;
+    padding: 40px 0 20px 0;
+    color: #ffffff;
+}
+.ltitle3{
+    font-size: 24px;
+    text-align: center;    
+    padding:180px 0 50px 0;
+    color: #ffffff
+}
+.jiaxing{
+    color: #ffffff;
+    width: 400px;
+    margin: 0 auto;
+    line-height: 28px;
+    font-size: 16px
+}
+.wenzhou{
+    color: #ffffff;
+    width: 615px;
+    margin: 0 auto;
+    line-height: 38px;
+    font-size: 16px
+}
+.leftimg1 span{
+    display: none;
+}
+.leftimg1:hover span{
+    display: block;
+}
+.leftimg1:hover .zhezhao {
+    cursor: pointer;
+    background: #333333a2;
+    display: block;
+}
+.leftimg2 span{
+    display: none;
+}
+.leftimg2:hover span{
+    display: block;
+}
+.leftimg2:hover .zhezhao{
+    cursor: pointer;
+    background-color: #333333a2;
+    display: block;
+}
+.rightimg{
+    width: 781px;
+    height: 525px;
+    background: url(../../imges/develop_idea/图层49.png) no-repeat;
+    background-size: 100% 100%; 
+    z-index: 1;
+}
+.rightimg span{
+    display: none;
+}
+.rightimg:hover span{
+    display: block;
+}
+.rightimg:hover .zhezhao{
+    cursor: pointer;
+    background: #333333a2;
+}
+.peasants{
+    width: 816px;
+    margin: 0 auto 0 auto
+}
+/* <!-- 轮播图 --> */
+.navlunbo{
+    width: 100%;
+    height:  670px;
+    /* background: #aaa; */
+}
+.lunbos>div{
+    float: left;
+}
+.lunbos{
+    width: 1295px;
+    height: 100%;
+    margin: 0 auto
+}
+.lunbo{
+    width: 700px;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto 0 50px;
+}
+.lunbo>div{
+    float: left;
+}
+.lunimgs{
+    width:  3940px;
+    height: 530px;
+    margin: 65px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1s all ease
+}
+.lunimgs>div{
+    float: left;
+}
+.item3{
+    width:700px;
+    height: 530px;
+    margin: 0;
+}
+.buttons{
+    width: 545px;
+    padding-bottom: 70px;
+    z-index: 99;
+}
+.lunbo2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.buttons>div:hover{
+    color: #e44444;
+}
+/* 共享发展 */
+.shares{
+    width: 1280px;
+    height: 790px;
+    margin: 55px auto;
+}
+.share>div{
+    float: left;
+    width: 370px;
+    height: 570px;
+    background: #EFEFEF;
+    position: relative;
+}
+.butmove{
+    width: 369px;
+    height: 45px;
+    line-height: 45px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #ffffff;
+    border: 1px solid #EFEFEF;
+    text-align: center;
+    font-size: 18px;
+}
+.butmove:hover{
+    cursor: pointer;
+    background: #e44444;
+    color: #ffffff
+}
+
+/* 脚注 */
+.float{
+    float: left;
+}
+.footnote{
+    width: 100%;
+    height: 300px;
+    background: #303030;
+}
+.footnoteBox{
+    width: 1280px;
+    height: 100%;
+    /* background: lightgreen; */
+    margin: 0 auto;
+}
+.footnoteLogo{
+    margin-right: 30px;
+}
+.footnoteLogo>img:nth-child(1){
+    margin-top: 122px;
+}
+.footnoteLogo>img:nth-child(2){
+    margin-top: 135px;
+    margin-left: 12px;
+}
+.footnoteTheme{
+    line-height: 27px;
+     height: 181px;
+     width: 824px;
+     /* background: red; */
+     margin-top: 59.5px;
+}
+.footnoteTheme>.textTop{
+    width:727px;
+    height:54px;
+    font-size:20px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:27px;
+}
+.footnoteTheme>.textBottom{
+    width:853px;
+    height:54px;
+    font-size:16px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:27px;
+    opacity:0.5;
+}
+.footnoteBottom{
+    float: right;
+    margin-top: 56px;
+    text-align: center;
+}
+.footnoteBottom>img{
+    margin: 0 10px;
+}
+.footnoteBottom>p{
+    font-size: 18px;
+    color:rgba(255,255,255,1);
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    margin: 0 10px;
+}
+/* 脚注 -end */

@@ -1,0 +1,583 @@
+/* --------公共部分------------ */
+/* 标题 */
+.title{
+    width: 150px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 101px;
+    margin-bottom: 70px;
+    /* background: red; */
+}
+.title>p{
+    font-size:36px;
+font-family:MicrosoftYaHei;
+font-weight:400;
+color:rgba(51,51,51,1);
+line-height:29px;
+}
+.title>div{
+    width:67px;
+    height:3px;
+    background: rgba(196,1,0,1);
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/* 标题 -end */
+.nav{
+    width: 1280px;
+    height: 88px;
+    /* background: red; */
+    background: #fff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0 auto;
+    z-index: 99;
+}  
+.navBox{
+    float: left;
+}
+.hoverBOx:hover .sonPage{
+    display: inline-block;
+}
+.sonPage_title{
+    color: #000;
+    background: #fff;
+    border-bottom: 1px solid rgba(229,229,229,1);
+}
+.sonPage_title:hover{
+    background: #E44444;
+    color: #fff;
+}
+.sonPage{
+    width: 100%;
+    height: 288px;
+    display: none;
+}
+.nav>div{
+    font-size: 18px;
+}
+/* -----------公共部分 -end----------- */
+/* -----------导航条LOGO标题部分----------- */
+.navFlex_left{
+    text-align: center;
+    width: 230px;
+    height: 100%;
+    /* background: green; */
+}
+.logo{
+    border-radius: 50%;
+    /* background: rebeccapurple; */
+    text-align: center;
+    line-height: 70px;
+    /* margin:0 71px; */
+}
+.title{
+    /* background: rebeccapurple; */
+    line-height: 88px;
+}
+/* -----------导航条LOGO标题部分 -end----------- */
+/* -----------导航条右边主题部分----------- */
+.navFlex_right{
+    width: 1050px;
+    height: 100%;
+    /* background: yellow; */
+}
+.navFlex_right>div{
+    width: 175px;
+    height:100%;
+    text-align: center;
+    line-height: 88px;
+}
+.navFlex_right>div:hover{
+    cursor: pointer;
+    background: #E44444;
+    color: #fff;
+}
+.navFlex_right>div:hover a{
+    color: #fff;
+}
+.float{
+    float: left;
+}
+/* -----------导航条右边主题部分 -end----------- */
+
+/* 第一层 */
+.floor_1{
+    width: 100%;
+    height: 920px;
+}
+.floor_1>img{
+    width: 100%;
+    height: 100%;
+}
+/* 第一层 -end */
+/* 第二层 */
+.floor_2{
+    width: 100%;
+    height: 251px;
+    /* background: #E44444; */
+}
+.floor_2>.box{
+    width: 408px;
+    /* height: 100%; */
+    margin: 0 auto;
+    /* background: yellow; */
+    padding-top: 50px;
+    text-align: center;
+}
+
+.label{
+    width: 100%;
+    height: 34px;
+    margin: 25px auto;
+}
+.label>div{
+    width:175px;
+height:2px;
+background:rgba(191,191,191,1);
+margin-top: 16px;
+}
+.borderRinght{
+    float: left;
+}
+.borderLeft{
+   float: right;
+}
+.floor_2>.box>p{
+    font-size:36px;
+font-family:MicrosoftYaHei;
+font-weight:400;
+color:rgba(51,51,51,1);
+}
+.floor_2>.box>.p_1{
+    font-size:24px;
+font-family:MicrosoftYaHei;
+font-weight:400;
+color:rgba(94,94,94,1);
+line-height:29px;
+}
+/* 第二层 -end */
+/* 第三层  */
+.floor_3{
+    width: 1279px;
+    height: 444px;
+    margin: 0 auto;
+     border:1px solid rgba(224,220,220,1);
+     position: relative;
+}
+.floor_3>img{
+    margin: 19px 6px;
+}
+.floor_3>div{
+    display: none;
+    width:496px;
+font-family:MicrosoftYaHei;
+font-weight:400;
+color:rgba(51,51,51,1);
+line-height:44px;
+float: right;
+margin: 108px 76px 0  0;
+}
+/* 第三层 -end */
+/* 第四层 */
+.floor_4{
+    width: 1280px;
+    height: 740px;
+    /* background: blue; */
+    margin: 0 auto;
+    text-align: center
+}
+.floor_4>div{
+    display: -webkit-inline-box;
+}
+.floor_4Box{
+    /* width: 400px; */
+    height: 100%;
+    /* background: green; */
+    float: left;
+    z-index: 1;
+    position: relative;
+    left: 0;
+    right: 0;
+}
+.floor_4Box img{
+    width: 400px;
+    height: 278px;
+    transition: all 0.5s ease;
+}
+.floor_4Box>div{
+    width:352px;
+font-family:MicrosoftYaHei;
+font-weight:400;
+color:rgba(178,178,178,1);
+line-height:29px;
+/* background: skyblue; */
+margin: 0 auto;
+opacity: .5;
+}
+/* 第四层 -end */
+
+/* 第五层标题 */
+.foolr_5T{
+    width:1261px;
+height:39px;
+border-left:3px solid rgba(196,1,0,1);
+margin: 50px auto;
+padding-left: 18px;
+font-size:36px;
+font-family:MicrosoftYaHei;
+font-weight:400;
+color:rgba(51,51,51,1);
+line-height:29px;
+}
+/* 第五层标题 -end */
+/* 第六层 */
+.foolr_6{
+   width: 1280px;
+   height: 530px;
+    margin: 0 auto;
+    /* background: skyblue; */
+    margin-bottom: 50px;
+}
+.foolr_6Top{
+    width: 100%;
+    height: 428px;
+    /* background: pink; */
+    position: relative;
+}
+.foolr_6Top img:hover{
+    cursor: pointer;
+}
+.foolr_6Top_left{
+    width: 690px;
+    height: 100%;
+    /* background: rgb(230, 5, 43); */
+    position: relative;
+}
+.foolr_6Top_right{
+    width: 550px;
+    height: 100%;
+    /* background: rgb(230, 5, 43); */
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.foolr_6Text{
+    width: 1215px;
+    font-family:MicrosoftYaHei;
+font-weight:400;
+color:rgba(51,51,51,1);
+line-height:29px;
+margin: 20px auto;
+display: none;
+}
+/* 第六层 -end */
+/* 第七层  */
+.foolr_7{
+    width: 100%;
+    height: 808px;
+    background: rgba(239,239,239,1);
+    padding-top: 1px
+}
+.foolr_7>.box{
+    width: 1221px;
+    height: 645px;
+    margin: 0 auto;
+    /* background: pink; */
+    position: relative;
+}
+.foolr_7>.box>div{
+    text-align: center;
+    width:568px;
+    height:645px;
+    background:rgba(255,255,255,1);
+    top: 0;
+}
+.foolr_7>.box>div:hover{
+    cursor: pointer;
+    box-shadow: 0px  0px  10px  #333333;
+    transition: all 1s ease;
+    position: absolute;
+    top: -1%;
+}
+._Box{
+    width: 495px;
+    height: 576px;
+    /* background: #E44444; */
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    text-align: center;
+}
+._Box>p{
+    font-size:20px;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+    line-height:68px;
+}
+._Box>.content{
+    width: 100%;
+font-size:16px;
+font-family:MicrosoftYaHei;
+font-weight:400;
+color:#333333;
+line-height:29px;
+text-indent:2.3rem;
+text-align: left;
+}
+._Box>.details{
+    font-size:14px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(102,102,102,1);
+    line-height:29px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+._Box>.details:hover{
+    color: #C40100;
+    cursor: pointer;
+}
+
+.boxLfet{
+    position: absolute;
+    top: 0;
+}
+.boxRight{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* 第七层 -end */
+/* 第八层 */
+.content_8{
+    width:902px;
+/* height:53px; */
+font-size:24px;
+font-family:MicrosoftYaHei;
+font-weight:400;
+color:rgba(51,51,51,1);
+line-height:29px;
+text-align: center;
+margin: 0 auto;
+}
+.details_8{
+    font-size:14px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(102,102,102,1);
+    line-height:29px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.details_8:hover{
+    color: #C40100;
+    cursor: pointer;
+}
+/* 第八层 -end */
+/* 第九层 */
+.floor_9{
+    width: 1279px;
+    height: 278px;
+    margin: 0 auto;
+    /* background: #000 */
+}
+.floor_9>div{
+    position: relative;
+    top: 0;
+    /* background: #C40100 */
+}
+.floor_9>div:hover{
+    transition: all 0.5s ease;
+    position: relative;
+    top: -2%;
+    cursor: pointer;
+}
+.marginImg{
+    margin: 0 20px;
+}
+/* 第九层 -end */
+/* 第十层 */
+.floor_10{
+    width: 1279px;
+    height: 496px;
+    margin: 0 auto;
+    border: 1px solid rgba(224,220,220,1);
+    position: relative;
+    margin-bottom: 130px;
+}
+.floor_10>div {
+    width: 452px;
+    font-family: MicrosoftYaHei;
+    font-weight: 400;
+    color: rgba(51,51,51,1);
+    font-size:18px;
+    line-height:29px;
+    position: absolute;
+    left: 26px;
+    top: 82px;
+    display: none;
+}
+/* 第十层 -end */
+/* 脚注 */
+.footnote{
+    width: 100%;
+    height: 300px;
+    background: #303030;
+}
+.footnoteBox{
+    width: 1280px;
+    height: 100%;
+    /* background: lightgreen; */
+    margin: 0 auto;
+}
+.footnoteLogo{
+    margin-right: 30px;
+}
+.footnoteLogo>img:nth-child(1){
+    margin-top: 122px;
+}
+.footnoteLogo>img:nth-child(2){
+    margin-top: 135px;
+    margin-left: 12px;
+}
+.footnoteTheme{
+    line-height: 27px;
+     height: 181px;
+     width: 824px;
+     /* background: red; */
+     margin-top: 59.5px;
+}
+.footnoteTheme>.textTop{
+    width:727px;
+    height:54px;
+    font-size:20px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:27px;
+}
+.footnoteTheme>.textBottom{
+    width:853px;
+    height:54px;
+    font-size:16px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:27px;
+    opacity:0.5;
+}
+.footnoteBottom{
+    float: right;
+    margin-top: 56px;
+    text-align: center;
+}
+.footnoteBottom>img{
+    margin: 0 10px;
+}
+.footnoteBottom>p{
+    font-size: 18px;
+    color:rgba(255,255,255,1);
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    margin: 0 10px;
+}
+/* 脚注 -end */
+
+/* --------公共部分------------ */
+.nava{
+	width: 100%;
+	height: 88px;
+	/* background: red; */
+	background: #fff;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	margin: 0 auto;
+	z-index:100;
+}
+.nav{
+    width: 1280px;
+    height: 88px;
+    /* background: red; */
+    background: #fff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0 auto;
+    z-index: 99;
+}  
+.navBox{
+    float: left;
+}
+.hoverBOx:hover .sonPage{
+    display: inline-block;
+}
+.sonPage_title{
+    color: #000;
+    background: #fff;
+    border-bottom: 1px solid rgba(229,229,229,1);
+}
+.sonPage_title:hover{
+    background: #E44444;
+    color: #fff;
+}
+
+.sonPage{
+    width: 100%;
+    height: 288px;
+    display: none;
+}
+.nav>div{
+    font-size: 18px;
+}
+/* -----------公共部分 -end----------- */
+/* -----------导航条LOGO标题部分----------- */
+.navFlex_left{
+    text-align: center;
+    width: 230px;
+    height: 100%;
+    /* background: green; */
+}
+.logo{
+    border-radius: 50%;
+    /* background: rebeccapurple; */
+    text-align: center;
+    line-height: 70px;
+    /* margin:0 71px; */
+}
+.title{
+    /* background: rebeccapurple; */
+    line-height: 88px;
+}
+/* -----------导航条LOGO标题部分 -end----------- */
+/* -----------导航条右边主题部分----------- */
+.navFlex_right{
+    width: 1050px;
+    height: 100%;
+    /* background: yellow; */
+}
+.navFlex_right>div{
+    width: 175px;
+    height:100%;
+    text-align: center;
+    line-height: 88px;
+}
+.navFlex_right>div:hover{
+    cursor: pointer;
+    background:#E44444;
+    color: #fff;
+}
+.navFlex_right>div:hover a{
+    color: #fff;
+}
+/* -----------导航条右边主题部分 -end----------- */

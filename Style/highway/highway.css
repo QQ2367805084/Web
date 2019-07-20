@@ -1,0 +1,494 @@
+/* --------公共部分------------ */
+.nava{
+    width: 100%;
+    height: 88px;
+    /* background: red; */
+    background: #fff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0 auto;
+    z-index: 98;
+}
+.nav{
+    width: 1280px;
+    height: 88px;
+    /* background: red; */
+    background: #fff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0 auto;
+    z-index: 99;
+}  
+.navBox{
+    float: left;
+}
+.hoverBOx:hover .sonPage{
+    display: inline-block;
+}
+.sonPage_title{
+    color: #000;
+    background: #fff;
+    border-bottom: 1px solid rgba(229,229,229,1);
+}
+.sonPage_title:hover{
+    background: #E44444;
+    color: #fff;
+}
+.sonPage{
+    width: 100%;
+    height: 288px;
+    display: none;
+}
+.nav>div{
+    font-size: 18px;
+}
+/* -----------公共部分 -end----------- */
+/* -----------导航条LOGO标题部分----------- */
+.navFlex_left{
+    text-align: center;
+    width: 230px;
+    height: 100%;
+    /* background: green; */
+}
+.logo{
+    border-radius: 50%;
+    /* background: rebeccapurple; */
+    text-align: center;
+    margin-top:3%;
+    margin-left: 45%;
+    line-height: 70px;
+    /* margin:0 71px; */
+}
+.title{
+    /* background: rebeccapurple; */
+    line-height: 88px;
+}
+/* -----------导航条LOGO标题部分 -end----------- */
+/* -----------导航条右边主题部分----------- */
+.navFlex_right{
+    width: 1050px;
+    height: 100%;
+    /* background: yellow; */
+}
+.navFlex_right>div{
+    width: 175px;
+    height:100%;
+    text-align: center;
+    line-height: 88px;
+}
+.navFlex_right>div:hover{
+    cursor: pointer;
+    background: #E44444;
+    color: #fff;
+}
+.navFlex_right>div:hover a{
+    color: #fff;
+}
+.float{
+    float: left;
+}
+/* -----------导航条右边主题部分 -end----------- */
+
+/* 头部背景轮播 */
+/* banner轮播图 */
+.banner{
+    width: 100%;
+    height: 670px;
+    /* background: skyblue; */
+    margin-top: 88px;
+    position: relative;
+    overflow: hidden;
+}
+.banner ul {
+    list-style: none;
+}
+.advs {
+    width: 7680px;
+    height: 783px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: left 1s; /*样式的过渡效果，从一个状态到另一个状态要完成的时间*/
+}
+.advs li {
+    float: left;
+}
+.advs img {
+    height: 100%;
+}
+.icons {
+    width: 300px;
+    position: absolute;
+    left: calc(50% - 150px);
+    bottom: 30px;
+    text-align: center;
+}
+
+.icons > li {
+    display: inline-block; /*即可以设置宽高，又变成了行级标签，而且标签之间的换行会转换成空格*/
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    background: none;
+    transition: all 0.3s ease;
+}
+.icons > li:hover {
+    background: #fff;
+}
+.icons > li.curr{
+    background: blue;
+}
+/* banner轮播图 -end*/
+
+/* 头部背景轮播 -end */
+.j {
+   width: 100%;
+    height:655px;
+}
+.j>p{
+    margin-top: 54px!important;
+    text-align:center;
+    font-size: 36px;
+}
+.j1{
+    width: 1280px;
+    margin: auto;
+    margin-top: 23px;
+}
+.j1>span{
+    width: 1164px!important;
+    font-size: 20px;
+    text-align:center;
+}
+.j2{
+    width: 1050px;
+    height: 315px;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+    bottom: 0;
+    transition: all 0.5s ease;
+}
+.j2>img{
+    position: relative;
+    bottom: 0;
+    transition: all 0.5s ease;
+}
+.j2>img:nth-child(1):hover{
+    position: relative;
+    bottom: 1%;
+}
+.j2>img:nth-child(2):hover{
+    position: relative;
+    bottom: 1%;
+}
+.j3{
+    width: 100%;
+    height: 500px;
+    background-color: #efefef;
+}
+.j4{
+    width: 1280px;
+    height: 500px;
+    margin: auto;
+    /* display: none; */
+    position: relative;
+    left: -1480px;
+    transition: all 2s ease;
+}
+.j4>img{
+    margin-top: 49px;
+}
+.j5{
+    width: 605px;
+    height: 358px;
+    margin-top: -350px;
+    margin-left: 603px;
+}
+.j5>p{
+    text-align:center;
+    font-size: 22px;
+}
+.j5>span{
+    font-size: 16px;
+    text-indent: 2em;
+}
+.j6{
+    width: 100%;
+    height: 955px;
+    margin-top: 98px;
+}
+.j7{
+width: 1280px;
+    height: 955px;
+    margin: auto;
+    display: none;
+}
+.j7>p{
+    text-align:center;
+    font-size:36px;
+    overflow: hidden;
+}
+.j8{
+    width: 1047px;
+    height: 80px;
+    margin: auto;
+}
+.j9{
+    width: 1280px;
+    height: 805px;
+    padding-left: 8px;
+}
+.j10{
+    width: 100%;
+    height: 1480px;
+    margin-top: 100px;
+}
+.j11{
+    width: 1280px;
+    height: 1330px;
+    margin: auto;
+}
+.j11>p{
+    text-align:center;
+    font-size:36px;
+    margin-top: 100px;
+}
+.j12{
+    width: 1280px;
+    height: 428px;
+    margin: auto;
+    overflow: hidden;
+}
+.j12>img{
+    position: relative;
+    left: -641px;
+    /* transition: all 1s ease; */
+
+}
+.j12 span{
+    position: relative;
+    left:645px;
+}
+.j12-1>img{
+    position: relative;
+    left: -641px;
+    /* transition: all 1s ease; */
+
+}
+.j12-1 span{
+    position: relative;
+    left:645px;
+}
+.j13{
+    width: 545px;
+    height: 340px;
+    margin-top: -280px;
+    margin-left: 700px;
+}
+.j13>img{
+    
+    position: relative;
+    left: -641px;
+}
+.j13>p{
+    text-align:center;
+    font-size: 22px;
+}
+.j13>span{
+    font-size: 16px;
+    text-indent: 2em;
+}
+.j14{
+    width: 1280px;
+    height: 357px;
+    margin: auto;
+}
+.j14>img{
+    margin-left: 640px;
+    position: relative;
+    left: 800px;
+}
+.j14 span{
+    position: relative;
+    left:-805px;
+}
+.j15{
+    width: 545px;
+    height: 340px;
+    margin-top: -280px;
+    margin-left: 50px;
+}
+.j15>p{
+    text-align:center;
+    font-size: 22px;
+}
+.j15>span{
+    font-size: 16px;
+    text-indent: 2em;
+}
+.fl{float: left;margin-top: 20px}
+.fr{float: right;margin-top: 20px}
+/* 底层修饰 -end */
+/* 脚注 */
+.footnote{
+    width: 100%;
+    height: 300px;
+    background: #303030;
+}
+.footnoteBox{
+    width: 1280px;
+    height: 100%;
+    /* background: lightgreen; */
+    margin: 0 auto;
+}
+.footnoteLogo{
+    margin-right: 30px;
+}
+.footnoteLogo>img:nth-child(1){
+    margin-top: 122px;
+}
+.footnoteLogo>img:nth-child(2){
+    margin-top: 135px;
+    margin-left: 12px;
+}
+.footnoteTheme{
+    line-height: 27px;
+    height: 181px;
+    width: 824px;
+    /* background: red; */
+    margin-top: 59.5px;
+}
+.footnoteTheme>.textTop{
+    width:727px;
+    height:54px;
+    font-size:20px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:27px;
+}
+.footnoteTheme>.textBottom{
+    width:853px;
+    height:54px;
+    font-size:16px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:27px;
+    opacity:0.5;
+}
+.footnoteBottom{
+    float: right;
+    margin-top: 56px;
+    text-align: center;
+}
+.footnoteBottom>img{
+    margin: 0 10px;
+}
+.footnoteBottom>p{
+    font-size: 18px;
+    color:rgba(255,255,255,1);
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    margin: 0 10px;
+}
+/* 脚注 -end */
+
+/* --------公共部分------------ */
+.nava{
+	width: 100%;
+	height: 88px;
+	/* background: red; */
+	background: #fff;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	margin: 0 auto;
+	z-index:100;
+}
+.nav{
+    width: 1280px;
+    height: 88px;
+    /* background: red; */
+    background: #fff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0 auto;
+    z-index: 99;
+}  
+.navBox{
+    float: left;
+}
+.hoverBOx:hover .sonPage{
+    display: inline-block;
+}
+.sonPage_title{
+    color: #000;
+    background: #fff;
+    border-bottom: 1px solid rgba(229,229,229,1);
+}
+.sonPage_title:hover{
+    background: #E44444;
+    color: #fff;
+}
+
+.sonPage{
+    width: 100%;
+    height: 288px;
+    display: none;
+}
+.nav>div{
+    font-size: 18px;
+}
+/* -----------公共部分 -end----------- */
+/* -----------导航条LOGO标题部分----------- */
+.navFlex_left{
+    text-align: center;
+    width: 230px;
+    height: 100%;
+    /* background: green; */
+}
+.logo{
+    border-radius: 50%;
+    /* background: rebeccapurple; */
+    text-align: center;
+    line-height: 70px;
+    /* margin:0 71px; */
+}
+.title{
+    /* background: rebeccapurple; */
+    line-height: 88px;
+}
+/* -----------导航条LOGO标题部分 -end----------- */
+/* -----------导航条右边主题部分----------- */
+.navFlex_right{
+    width: 1050px;
+    height: 100%;
+    /* background: yellow; */
+}
+.navFlex_right>div{
+    width: 175px;
+    height:100%;
+    text-align: center;
+    line-height: 88px;
+}
+.navFlex_right>div:hover{
+    cursor: pointer;
+    background:#E44444;
+    color: #fff;
+}
+.navFlex_right>div:hover a{
+    color: #fff;
+}
+/* -----------导航条右边主题部分 -end----------- */

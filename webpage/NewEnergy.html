@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <title>中国能源</title>
+    <link href="../Style/port-energy/12.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="../Style/port-energy/aoteman.css">
+    <link rel="stylesheet" href="http://www.jq22.com/jquery/font-awesome.4.6.0.css">
+    <script src="../JavaScript/port-energy/heihei.js"></script>
+    <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="" />
+    <script
+        type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <script src="http://www.jq22.com/jquery/bootstrap-3.3.4.js"></script>
+    <script type="text/javascript" src="../JavaScript/port-energy/a3.js"></script>
+    <script type="text/javascript" src="../JavaScript/port-energy/a4.js"></script>
+    <script type="text/javascript">
+
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+            });
+        });
+    </script>
+    <script type="text/javascript" src="../JavaScript/port-energy/a5.js"></script>
+    <script src="../JavaScript/port-energy/a6.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+<style>
+        /* --------公共部分------------ */
+        .nava {
+            width: 100%;
+            height: 88px;
+            /* background: red; */
+            background: #fff;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            margin: 0 auto;
+            z-index: 100;
+        }
+
+        .nav {
+            width: 1280px;
+            height: 88px;
+            /* background: red; */
+            background: #fff;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            margin: 0 auto;
+            z-index: 99;
+        }
+
+        .navBox {
+            float: left;
+        }
+
+        .hoverBOx:hover .sonPage {
+            display: inline-block;
+        }
+
+        .sonPage_title {
+            color: #000;
+            background: #fff;
+            border-bottom: 1px solid rgba(229, 229, 229, 1);
+        }
+
+        .sonPage_title:hover {
+            background: #E44444;
+            color: #fff;
+        }
+
+        .sonPage {
+            width: 100%;
+            height: 288px;
+            display: none;
+        }
+
+        .nav>div {
+            font-size: 18px;
+        }
+
+        /* -----------公共部分 -end----------- */
+        /* -----------导航条LOGO标题部分----------- */
+        .navFlex_left {
+            text-align: center;
+            width: 230px;
+            height: 100%;
+            /* background: green; */
+        }
+
+        .logo {
+            border-radius: 50%;
+            /* background: rebeccapurple; */
+            text-align: center;
+            line-height: 70px;
+            /* margin:0 71px; */
+        }
+
+        .title {
+            /* background: rebeccapurple; */
+            line-height: 88px;
+        }
+
+        /* -----------导航条LOGO标题部分 -end----------- */
+        /* -----------导航条右边主题部分----------- */
+        .navFlex_right {
+            width: 1050px;
+            height: 100%;
+            /* background: yellow; */
+        }
+
+        .navFlex_right>div {
+            width: 175px;
+            height: 100%;
+            text-align: center;
+            line-height: 88px;
+        }
+
+        .navFlex_right>div:hover {
+            cursor: pointer;
+            background: #E44444;
+            color: #fff;
+        }
+
+        .navFlex_right>div:hover a {
+            color: #fff;
+        }
+
+        /* 脚注 */
+        .footnote {
+            width: 100%;
+            height: 300px;
+            background: #303030;
+        }
+
+        .footnoteBox {
+            width: 1280px;
+            height: 100%;
+            /* background: lightgreen; */
+            margin: 0 auto;
+        }
+
+        .footnoteLogo {
+            margin-right: 30px;
+        }
+
+        .footnoteLogo>img:nth-child(1) {
+            margin-top: 122px;
+        }
+
+        .footnoteLogo>img:nth-child(2) {
+            margin-top: 135px;
+            margin-left: 12px;
+        }
+
+        .footnoteTheme {
+            line-height: 27px;
+            height: 181px;
+            width: 824px;
+            /* background: red; */
+            margin-top: 39.5px;
+        }
+
+        .footnoteTheme>.textTop {
+            width: 727px;
+            height: 54px;
+            font-size: 20px;
+            font-family: MicrosoftYaHei;
+            font-weight: 400;
+            color: rgba(255, 255, 255, 1);
+            line-height: 27px;
+        }
+
+        .footnoteTheme>.textBottom {
+            width: 853px;
+            font-size: 16px;
+            font-family: MicrosoftYaHei;
+            font-weight: 400;
+            color: rgba(255, 255, 255, 1);
+            line-height: 27px;
+            opacity: 0.5;
+        }
+
+        .footnoteBottom {
+            float: right;
+            margin-top: 56px;
+            text-align: center;
+        }
+
+        .footnoteBottom>img {
+            margin: 0 10px;
+        }
+
+        .footnoteBottom>p {
+            font-size: 18px;
+            color: rgba(255, 255, 255, 1);
+            font-family: MicrosoftYaHei;
+            font-weight: 400;
+            margin: 0 10px;
+            
+        }
+        .float{
+            float: left;
+        }
+        /* 脚注 -end */
+        /* -----------导航条右边主题部分 -end----------- */
+    </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar-collapse">
+
+    <!-- 导航条 -->
+    <div class="nava">
+        <div class="nav">
+            <div class="navBox navFlex_left">
+                <div class="navBox logo">
+                    <img src="../imges/indexImges/logo.png" style="position: relative;
+                    top: -10px;" alt="">
+                </div>
+            </div>
+            <div class="navBox navFlex_right">
+                <div class="navBox">
+                    <a href="../index.html">首页</a>
+                </div>
+                <div class="navBox hoverBOx">
+                    <a href="./science_Page.html">中国科技</a>
+                    <div class="sonPage">
+                        <a href="./NewEnergy.html">
+                            <div class="sonPage_title">新型能源</div>
+                        </a>
+                        <a href="./High_Speed.html">
+                            <div class="sonPage_title">中国高铁</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="navBox hoverBOx">
+                    <a href="">中国建造</a>
+                    <div class="sonPage">
+                        <a href="./construct.html">
+                            <div class="sonPage_title">中国大桥</div>
+                            <a href="./highway.html">
+                                <div class="sonPage_title">中国公路</div>
+                            </a>
+                            <a href="./port.html">
+                                <div class="sonPage_title">中国港口</div>
+                            </a>
+                    </div>
+                </div>
+                <div class="navBox hoverBOx">
+                    <a href="./develop_idea.html">发展理念</a>
+                    <div class="sonPage">
+
+                    </div>
+                </div>
+                <div class="navBox hoverBOx">
+                    <a href="./zoology_environment.html">生态环境</a>
+                    <div class="sonPage">
+                    </div>
+                </div>
+                <div class="navBox hoverBOx"><a href="./Good_life.html">美好生活</a>
+                    <div class="sonPage">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 导航条 -end -->
+
+    <div class="culmn">
+
+        <div class="content" style="margin-top: 88px">
+            <div class="container">
+                <div class="col-top" id="about">
+                    <h3>水电站</h3>
+                    <p>英文：hydroelectric power station /hydropower plant
+                        (HPP)，水电站是将水能转换为电能的综合工程设施，又称水电厂。它包括为利用水能生产电能而兴建的一系列水电站建筑物及装设的各种水电站设备。有些水电站除发电所需的建筑物外，还常有为防洪、灌溉、航运、过木、过鱼等综合利用目的服务的其他建筑物。这些建筑物的综合体称水电站枢纽或水利枢纽。
+                    </p>
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        </br>
+        </br>
+        </br>
+        </br>
+
+        <div class="portfolio" id="gallery">
+            <div class="portfolio-top wow fadeInDown animated" data-wow-delay=".5s">
+                <div class="col-md-4 grid slideanim">
+                    <figure class="effect-jazz">
+                        <a href="#portfolioModal1" data-toggle="modal">
+                            <img src="../imges/port-energy/images2/三峡水电站.jpg" alt="img25" class="img-responsive" />
+                            <figcaption>
+                                <h4 class="wai"> 三峡水电站</h4>
+                                <p>三峡大坝是自建造长城以来最伟大的工程壮举，也是中国开发清洁能源的一个重要里程碑。</p>
+                            </figcaption>
+                        </a>
+                    </figure>
+                </div>
+                <div class="col-md-4 grid slideanim">
+                    <figure class="effect-jazz">
+                        <a href="#portfolioModal2" data-toggle="modal">
+                            <img src="../imges/port-energy/images2/向家坝水电站.jpg" alt="img25" class="img-responsive" />
+                            <figcaption>
+                                <h4 class="wai">向家坝水电站</h4>
+                                <p> 向家坝水电站是金沙江水电基地25座水电站中唯一兼顾灌溉功能的超级大坝，是国内输送电压等级最高最先进的电力系统之一。</p>
+                            </figcaption>
+                        </a>
+                    </figure>
+                </div>
+                <div class="col-md-4 grid slideanim">
+                    <figure class="effect-jazz">
+                        <a href="#portfolioModal3" data-toggle="modal">
+                            <img src="../imges/port-energy/images2/溪洛渡水电站.jpg" alt="img25" class="img-responsive" />
+                            <figcaption>
+                                <h4 class="wai"> 溪洛渡水电站</h4>
+                                <p> 溪洛渡水电站是国家"西电东送"骨干工程，是金沙江"西电东送"距离最近的骨干电源之一，也是金沙江上最大的一座水电站。</p>
+                            </figcaption>
+                        </a>
+                    </figure>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="portfolio-top wow fadeInUp animated" data-wow-delay=".5s">
+                <div class="col-md-3 grid grid-wi slideanim">
+                    <figure class="effect-jazz">
+                        <a href="#portfolioModal4" data-toggle="modal">
+                            <img src="../imges/port-energy/images2/白鹤滩水电站.jpg" alt="img25" class="img-responsive" />
+                            <figcaption>
+                                <h4 class="effcet-text wai">白鹤滩水电站</h4>
+                                <p> 仅次于三峡水电站成为中国第二大水电站</p>
+                            </figcaption>
+                        </a>
+                    </figure>
+                </div>
+                <div class="col-md-3 grid grid-wi slideanim">
+                    <figure class="effect-jazz">
+                        <a href="#portfolioModal5" data-toggle="modal">
+                            <img src="../imges/port-energy/images2/龙滩水电站.jpg" alt="img25" class="img-responsive" />
+                            <figcaption>
+                                <h4 class="effcet-text wai">龙滩水电站</h4>
+                                <p> 西部大开发和"西电东送"重要的标志性工程</p>
+                            </figcaption>
+                        </a>
+                    </figure>
+                </div>
+                <div class="col-md-3 grid grid-wi slideanim">
+                    <figure class="effect-jazz">
+                        <a href="#portfolioModal6" data-toggle="modal">
+                            <img src="../imges/port-energy/images2/乌东德水电站.jpg" alt="img25" class="img-responsive" />
+                            <figcaption>
+                                <h4 class="effcet-text wai">乌东德水电站</h4>
+                                <p>流域开发的重要梯级工程</p>
+                            </figcaption>
+                        </a>
+                    </figure>
+                </div>
+                <div class="col-md-3 grid grid-wi slideanim">
+                    <figure class="effect-jazz">
+                        <a href="#portfolioModal7" data-toggle="modal">
+                            <img src="../imges/port-energy/images2/岩滩水电站.jpg" alt="img25" class="img-responsive" />
+                            <figcaption>
+                                <h4 class="effcet-text wai"> 岩滩水电站</h4>
+                                <p>系统容量最大、调节性能较好的水电站</p>
+                            </figcaption>
+                        </a>
+                    </figure>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div class="event" id="events">
+            <div class="container">
+                <div class="top-event">
+                    <h3>六大电站</h3>
+                </div>
+                <div class="event-grid ">
+                    <div class="event-left wow fadeInLeft animated" data-wow-delay=".5s">
+                        <a href="single.html"><img src="../imges/port-energy/images2/2/红沿核电站.jpg" class="img-responsive" alt=""></a>
+                        <div class="event-top">
+                            <div class="event-gr">
+                                <h4><a href="single.html">红沿河核电站</a> </h4>
+                                <p> 位于中国辽宁省大连市瓦房店瓦房店市红沿河镇东岗镇，是东北地区第一个核电站。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="event-right wow fadeInRight animated" data-wow-delay=".5s">
+                        <a href="single.html"><img src="../imges/port-energy/images2/2/宁德核电站.jpg" class="img-responsive" alt=""></a>
+                        <div class="event-top event-top1">
+                            <div class="event-gr">
+                                <h4><a href="single.html">宁德核电站</a> </h4>
+                                <p> 位于中国福建省宁德市福鼎市秦屿镇备湾村，是中国第一座在海岛上建设的核电站。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="event-grid">
+                    <div class="event-left event-left1 wow fadeInRight animated" data-wow-delay=".5s">
+                        <a href="single.html"><img src="../imges/port-energy/images2/2/秦山发电站.jpg" class="img-responsive" alt=""></a>
+                        <div class="clearfix"></div>
+                        <div class="event-top event-t">
+                            <div class="event-gr">
+                                <h4><a href="single.html">秦山核电站</a></h4>
+                                <p>位于浙江嘉兴市海盐县。是目前国内核电机组数量最多、堆型最丰富、装机最大的核电基地。是中国大陆建成的第一座核电站。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="event-right event-right1 wow fadeInLeft animated" data-wow-delay=".5s">
+                        <a href="single.html"><img src="../imges/port-energy/images2/2/岭澳核电站.jpg" class="img-responsive" alt=""></a>
+                        <div class="clearfix"></div>
+                        <div class="event-top event-t1">
+                            <div class="event-gr">
+                                <h4><a href="single.html">岭澳核电站</a></h4>
+                                <p>岭澳核电站位于广东大亚湾西海岸大鹏半岛东南侧，在建设中加大了自主化和国产化力度，是广东第二座大型商用核电站。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="event-grid ">
+                    <div class="event-left wow fadeInLeft animated" data-wow-delay=".5s">
+                        <a href="single.html"><img src="../imges/port-energy/images2/大亚湾核电站.jpg" class="img-responsive" alt=""></a>
+                        <div class="event-top">
+                            <div class="event-gr">
+                                <h4><a href="single.html">大亚湾核电站</a></h4>
+                                <p>大亚湾核电站位于中国广东省深圳市大鹏新区大鹏半岛，是中国大陆第一座大型商用核电站。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="event-right wow fadeInRight animated" data-wow-delay=".5s">
+                        <a href="single.html"><img src="../imges/port-energy/images2/光伏发电.jpg" class="img-responsive" alt=""></a>
+                        <div class="event-top event-top1">
+                            <div class="event-gr">
+                                <h4><a href="single.html">光伏发电站</a></h4>
+                                <p>光伏电站是指与电网相连并向电网输送电力的光伏发电系统，属国家鼓励的绿色能源项目。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="test">
+            <div class="container">
+                <h3>新型能源</h3>
+                <div class="test-top">
+                    <div class="col-md-6 test-top1 test-to wow fadeInUp animated" data-wow-delay=".5s">
+                        <div class=" test-top2">
+                            <p>风能是指空气流动所产生的动能。太阳能的一种转化形式。由于太阳辐射造成地球表面各部分受热不均匀，引起大气层中压力分布不平衡，在水平气压梯度的作用下，空气沿水平方向运动形成风。风能资源的总储量非常巨大，一年中技术可开发的能量约5.3X10^13千瓦时。风能是可再生的清洁能源，储量大、分布广，但它的能量密度低（只有水能的1/800），并且不稳定。在一定的技术条件下，风能可作为一种重要的能源得到开发利用。风能利用是综合性的工程技术，通过风力机将风的动能转化成机械能、电能和热能等。
+                            </p>
+                            <img src="../imges/port-energy/images2/3/风能.jpg" alt="">
+                            <div class="clearfix"> </div>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="test-top3">
+                            <img src="../imges/port-energy/images2/3/新疆达坂城风力发电.jpg" class="img-responsive" alt="">
+                            <h6> 风能发电</h6>
+                            <div class="clearfix"> </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 test-top1 wow fadeInDown animated" data-wow-delay=".5s">
+                        <div class=" test-top2">
+                            <p>海洋能指依附在海水中的可再生能源，海洋通过各种物理过程接收、储存和散发能量，这些能量以潮汐能、波浪能、温差能、盐差能、海流能等形式存在于海洋之中。
+                                海洋能的利用是指利用一定的方法、设备把各种海洋能转换成电能或其他可利用形式的能。海洋能的形式主要有潮汐能、波浪能、温差能、盐差能、海流能、海风能、海洋热能等多种能源形式，我国领海广阔蕴藏着丰富的海洋能，由于海洋能具有可再生性和不污染环境等优点，是一种亟待开发的具有战略意义的新能源，是实现我国海岸和海岛经济的可持续发展战略的重大保障。
+                            </p>
+                            <img src="../imges/port-energy/images2/海洋能.jpg" alt="">
+                            <div class="clearfix"> </div>
+                        </div>
+                        <br>
+                        <br>
+                        <div class=" test-top3">
+                            <img src="../imges/port-energy/images2/海洋能1.jpg" class="img-responsive" alt="">
+                            <h6> 海洋资源</h6>
+                            <div class="clearfix"> </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+        <div class="our-team" id="team">
+            <div class="container">
+                <h3>其他能源</h3>
+                <div class="team">
+                    <div class="col-md-6 team-grid wow fadeInLeft animated" data-wow-delay=".5s">
+                        <div class="team-1">
+                            <div class="col-md-5 col-1 ">
+                                <img class="img-responsive gray" src="../imges/port-energy/images2/生物质能.jpg" alt="">
+                            </div>
+                            <div class="col-md-7 col-1-at">
+                                <h5><a href="single.html">生物质能</a></h5>
+                                <ul class="social-in">
+                                    <li><a href="#"><i> </i></a></li>
+                                    <li><a href="#"><i class="icon"> </i></a></li>
+                                    <li><a href="#"><i class="icon1"> </i></a></li>
+                                </ul>
+                                <p>生物质能可转化为常规的固态、液态和气态燃料，取之不尽、用之不竭，是一种可再生能源，同时也是唯一一种可再生的碳源。</p>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 team-grid wow fadeInRight animated" data-wow-delay=".5s">
+                        <div class="team-1">
+                            <div class="col-md-5 col-1">
+                                <img class="img-responsive gray" src="../imges/port-energy/images2/地热能.jpg" alt="">
+                            </div>
+                            <div class="col-md-7 col-1-at">
+                                <h5><a href="single.html">地热能</a></h5>
+                                <ul class="social-in">
+                                    <li><a href="#"><i> </i></a></li>
+                                    <li><a href="#"><i class="icon"> </i></a></li>
+                                    <li><a href="#"><i class="icon1"> </i></a></li>
+                                </ul>
+                                <p>地热能〔Geothermal Energy〕是由地壳抽取的天然热能，并以热力形式存在，是引致火山爆发及地震的能量。</p>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="team">
+                    <div class="col-md-6 team-grid wow fadeInRight animated" data-wow-delay=".5s">
+                        <div class="team-1">
+                            <div class="col-md-5 col-1">
+                                <img class="img-responsive gray" src="../imges/port-energy/images2/氢能.jpg" alt="">
+                            </div>
+                            <div class="col-md-7 col-1-at">
+                                <h5><a href="single.html">氢能</a></h5>
+                                <ul class="social-in">
+                                    <li><a href="#"><i> </i></a></li>
+                                    <li><a href="#"><i class="icon"> </i></a></li>
+                                    <li><a href="#"><i class="icon1"> </i></a></li>
+                                </ul>
+                                <p>氢在地球上主要以化合态的形式出现，氢燃烧的产物是水，是世界上最干净的能源，资源丰富，可持续发展。</p>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 team-grid wow fadeInLeft animated" data-wow-delay=".5s">
+                        <div class="team-1">
+                            <div class="col-md-5 col-1 ">
+                                <img class="img-responsive gray" src="../imges/port-energy/images2/潮汐发电.jpg" alt="">
+                            </div>
+                            <div class="col-md-7 col-1-at">
+                                <h5><a href="single.html">潮汐发电</a></h5>
+                                <ul class="social-in">
+                                    <li><a href="#"><i> </i></a></li>
+                                    <li><a href="#"><i class="icon"> </i></a></li>
+                                    <li><a href="#"><i class="icon1"> </i></a></li>
+                                </ul>
+                                <p>潮汐发电与普通水力发电原理类似，通过海水涨潮落潮，利用高、低潮位之间的落差，推动水轮机旋转，带动发电机发电。</p>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+    <!-- 脚注 -->
+    <div class="footnote">
+        <div class="footnoteBox">
+            <div class="float footnoteLogo">
+                <img src="../imges/indexImges/1.png" alt="">
+                <img style="margin-bottom: 5px;" src="../imges/indexImges/国魂1.png" alt="">
+            </div>
+            <div class="float footnoteTheme">
+                <p class="textTop">中国政府网 &nbsp; | &nbsp; 关于本网 &nbsp; | &nbsp; 网站声明 &nbsp; | &nbsp; 网站地图 &nbsp; | &nbsp;
+                    联系我们 &nbsp; |
+                    &nbsp; 网站纠错</p>
+                <p class="textTop">网站单位：国务院办公厅　网站运行维护单位：中国政府网运行中心</p>
+
+                <p class="textBottom">相关链接：全国人大 &nbsp;&nbsp; &nbsp; | &nbsp;&nbsp; &nbsp; 全国政协 &nbsp; &nbsp;&nbsp;
+                    &nbsp; | &nbsp; &nbsp;&nbsp; &nbsp; 国家监察委员会 &nbsp; &nbsp;&nbsp; &nbsp; | &nbsp; &nbsp;&nbsp; &nbsp;
+                    最高人民法院 &nbsp; &nbsp;&nbsp; &nbsp; | &nbsp; &nbsp;&nbsp; &nbsp; 最高人民检察院
+                </p>
+                <p class="textBottom"> 网站标识码bm00000000　京ICP备88888888号　京公网安备88888088888888号</p>
+            </div>
+            <div class="float footnoteBottom" style="    float: right;">
+                <img src="../imges/indexImges/图层 50.png" alt="">
+                <p>中国政府网微信、微博</p>
+            </div>
+        </div>
+    </div>
+    <!-- 脚注 -end -->
+
+    <script data-cfasync="false" src="../JavaScript/port-energy/a8.js"></script>
+    <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+    <script src="../JavaScript/port-energy/1.js"></script>
+    <script src="../JavaScript/port-energy/2.js"></script>
+    <script src="../JavaScript/port-energy/3.js"></script>
+    <script src="../JavaScript/port-energy/4.js"></script>
+    <script src="../JavaScript/port-energy/5.js"></script>
+    <script src="../JavaScript/port-energy/6.js"></script>
+    <script src="../JavaScript/port-energy/7.js"></script>
+    <script src="../JavaScript/port-energy/8.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            /*
+            var defaults = {
+                  containerID: 'toTop', // fading element id
+                containerHoverID: 'toTopHover', // fading element hover id
+                scrollSpeed: 1200,
+                easingType: 'linear'
+             };
+            */
+
+            $().UItoTop({ easingType: 'easeOutQuart' });
+
+        });
+    </script>
+    <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+</body>
+
+</html>
