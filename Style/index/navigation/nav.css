@@ -242,7 +242,7 @@ line-height:44px;
 .floorTwo{
     width: 100%;
     height: 385px;
-    background: url(../../../imges/science/science/2.gif) no-repeat;
+    background: url(../../../imges/science/science/2.gif);
     position: relative;
 }
 
